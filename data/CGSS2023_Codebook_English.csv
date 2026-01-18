@@ -1,0 +1,1579 @@
+﻿CGSS2023 coding table,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+serial number,Investigation method,Questionnaire question number,Questionnaire questions,variable name,variable label,value label,value label
+1,Household survey/telephone survey,none,none,id,Questionnaire number,,
+2,Household survey/telephone survey,None/A38a,"Which province, autonomous region or municipality do you currently live in?",s41,Interview location - province/autonomous region/municipality code,s41lab,"The coding is consistent with the CGSS2010-2015 coding.
+For newly added administrative divisions, new values ​​and value labels will be added based on the original value labels.
+Click to view the value label s41lab."
+3,Household survey,none,none,s42,Interview location - prefecture-level city code,s42lab,
+4,Household survey,none,none,s43,Interview location - county/district code,s43lab,
+5,Household survey,none,none,s44,Interview location - township/town/street code,s44lab,
+6,Household survey,none,none,s45,Interview location - neighborhood committee/village committee code,s45lab,
+7,Household survey,none,none,isurban,Neighborhood Committee/Village Committee,isurbanlab,"-5 Telephone survey not investigated
+1 neighborhood committee
+2 Village Committee"
+8,Household survey/telephone survey,A00/none,Please record the current time,a00,Visit start time,,
+9,Household survey/telephone survey,A1,"Besides you, how many other people are there in your family? (Note! Do not include members who have separated from you)",a1,How many other people are there in your household besides you (excluding members who have separated from you),a1lab,-3 refuse to answer
+10,Telephone survey,None/A1a,"How many people usually live together in your family? How many people usually live together in your family? Note, here Note, here Including you, relatives or nannies living with you Including yourself, relatives or nannies living with you are also counted",a1a,"How many people currently live together in your family (including yourself, relatives or nannies who live together)",a1alab,"-4 Household interviews but no investigation
+-3 refuse to answer"
+11,Household survey,A0101,Name of family member (relationship with respondent),a01102,The title of the 2nd family member,,
+12,Household survey,A0101,Name of family member (relationship with respondent),a01103,The title of the 3rd family member,,
+13,Household survey,A0101,Name of family member (relationship with respondent),a01104,The title of the 4th family member,,
+14,Household survey,A0101,Name of family member (relationship with respondent),a01105,The title of the 5th family member,,
+15,Household survey,A0101,Name of family member (relationship with respondent),a01106,The title of the 6th family member,,
+16,Household survey,A0101,Name of family member (relationship with respondent),a01107,The title of the 7th family member,,
+17,Household survey,A0101,Name of family member (relationship with respondent),a01108,The title of the 8th family member,,
+18,Household survey,A0101,Name of family member (relationship with respondent),a01109,The title of the 9th family member,,
+19,Household survey,A0101,Name of family member (relationship with respondent),a01110,The title of the 10th family member,,
+20,Household survey,A0101,Name of family member (relationship with respondent),a01111,The title of the 11th family member,,
+21,Household survey,A0101,Name of family member (relationship with respondent),a01112,The title of the 12th family member,,
+22,Household survey,A0101,Name of family member (relationship with respondent),a01113,The title of the 13th family member,,
+23,Household survey,A0101,Name of family member (relationship with respondent),a01114,第14个家庭成员的称呼,,
+24,Household survey,A0101,家庭成员称呼（与被访者的关系）,a01115,The title of the 15th family member,,
+25,Household survey,A01012,What is the relationship between these family members and you?,a01202,The relationship between the second family member and the respondent,a012lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 spouse
+2 children
+3 parents
+4 Spouse’s parents
+5 brothers and sisters
+6 Son-in-law/Daughter-in-law
+7 grandparents
+8 great-grandparents
+9 grandson (female)/grandson (female)
+10 great-grandson (female)/great-grandson (female)
+11 others"
+26,Household survey,A01012,What is the relationship between these family members and you?,a01203,The relationship between the third family member and the respondent,,
+27,Household survey,A01012,请问这些家庭成员和您的关系是？,a01204,The relationship between the fourth family member and the respondent,,
+28,Household survey,A01012,What is the relationship between these family members and you?,a01205,The relationship between the fifth family member and the respondent,,
+29,Household survey,A01012,What is the relationship between these family members and you?,a01206,The relationship between the 6th family member and the respondent,,
+30,Household survey,A01012,What is the relationship between these family members and you?,a01207,The relationship between the 7th family member and the respondent,,
+31,Household survey,A01012,What is the relationship between these family members and you?,a01208,The relationship between the 8th family member and the respondent,,
+32,Household survey,A01012,What is the relationship between these family members and you?,a01209,Relationship between the 9th family member and the respondent,,
+33,Household survey,A01012,What is the relationship between these family members and you?,a01210,Relationship between the 10th family member and the respondent,,
+34,Household survey,A01012,What is the relationship between these family members and you?,a01211,The relationship between the 11th family member and the respondent,,
+35,Household survey,A01012,What is the relationship between these family members and you?,a01212,The relationship between the 12th family member and the respondent,,
+36,Household survey,A01012,What is the relationship between these family members and you?,a01213,The relationship between the 13th family member and the respondent,,
+37,Household survey,A01012,What is the relationship between these family members and you?,a01214,The relationship between the 14th family member and the respondent,,
+38,Household survey,A01012,What is the relationship between these family members and you?,a01215,Relationship between the 15th family member and the respondent,,
+39,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01202a,"Relationship between the second family member and the respondent - other, please specify",,
+40,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01203a,"Relationship between the third family member and the respondent - other, please specify",,
+41,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01204a,"Relationship between the 4th family member and the respondent - other, please specify",,
+42,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01205a,"Relationship between the 5th family member and the respondent - other, please specify",,
+43,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01206a,"Relationship between the 6th family member and the respondent - other, please specify",,
+44,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01207a,"Relationship between the 7th family member and the respondent - other, please specify",,
+45,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01208a,"Relationship between the 8th family member and the respondent - other, please specify",,
+46,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01209a,"Relationship between the 9th family member and the respondent - other, please specify",,
+47,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01210a,"Relationship between the 10th family member and the respondent - other, please specify",,
+48,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01211a,"Relationship between the 11th family member and the respondent - other, please specify",,
+49,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01212a,"Relationship between the 12th family member and the respondent - other, please specify",,
+50,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01213a,"Relationship between the 13th family member and the respondent - other, please specify",,
+51,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01214a,"Relationship between the 14th family member and the respondent - other, please specify",,
+52,Household survey,A01012,"What is the relationship between these family members and you? Others, please specify",a01215a,"Relationship between the 15th family member and the respondent - other, please specify",,
+53,Household survey,A01013,Currently living with you?,a01302,Whether the 2nd family member currently lives with you,a013lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 live together
+2 don’t live together"
+54,Household survey,A01013,Currently living with you?,a01303,Is the 3rd family member currently living with you?,,
+55,Household survey,A01013,Currently living with you?,a01304,Is the 4th family member currently living with you?,,
+56,Household survey,A01013,Currently living with you?,a01305,Is the 5th family member currently living with you?,,
+57,Household survey,A01013,Currently living with you?,a01306,Is the 6th family member currently living with you?,,
+58,Household survey,A01013,Currently living with you?,a01307,Is the 7th family member currently living with you?,,
+59,Household survey,A01013,Currently living with you?,a01308,Is the 8th family member currently living with you?,,
+60,Household survey,A01013,Currently living with you?,a01309,Is the 9th family member currently living with you?,,
+61,Household survey,A01013,Currently living with you?,a01310,Is the 10th family member currently living with you?,,
+62,Household survey,A01013,Currently living with you?,a01311,Is the 11th family member currently living with you?,,
+63,Household survey,A01013,Currently living with you?,a01312,Is the 12th family member currently living with you?,,
+64,Household survey,A01013,Currently living with you?,a01313,Is the 13th family member currently living with you?,,
+65,Household survey,A01013,Currently living with you?,a01314,Is the 14th family member currently living with you?,,
+66,Household survey,A01013,Currently living with you?,a01315,Is the 15th family member currently living with you?,,
+67,Household survey/telephone survey,A2/gender,Gender [Interviewer Record],a2,gender,a2lab,"1 male
+2 women"
+68,Household survey/telephone survey,A3,What is your date of birth? Year,a3a,Your date of birth - year,a3lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know"
+69,Household survey,A3,What is your date of birth? moon,a3b,Your date of birth - month,,
+70,Household survey,A3,What is your date of birth? day,a3c,Your date of birth - day,,
+71,Household survey/telephone survey,A4,Your nationality is:,a4,your nation,a4lab,"-3 refuse to answer
+1 Chinese
+2 Mongolia
+3 full
+4 times
+5 hide
+6 strong
+7 dimensions
+8 others"
+72,Household survey/telephone survey,A4/A4a,"Your nationality is: Other, please indicate",a4a,"Your nationality - other, please indicate",,
+73,Household survey/telephone survey,A5,What is your religious belief?,a5,your religious beliefs,a5lab,"-3 refuse to answer
+1 Not religious
+11 Buddhism
+12 Taoism
+13 Folk beliefs (worshiping Mazu, Guan Gong, etc.)
+14 Islam/Islam
+15 Catholic
+16 Christianity
+17 Orthodox
+18 Other Christianity
+19 Judaism
+20 Hinduism
+21 others"
+74,Household survey/telephone survey,A5/A5a,"What is your religious belief? Others, please specify",a5a,"Your religious beliefs - other, please indicate",,
+75,Household survey/telephone survey (random),A6,How often do you attend religious activities:,a6,How often do you attend religious activities?,a6lab,"1 Never attended
+2 Less than once a year
+3 About 1 to 2 times a year
+4 several times a year
+5 About once a month
+6 2 to 3 times a month
+7 Almost every week
+8 every week
+9 How many times a week"
+76,Household survey/telephone survey,A7a,Your highest current educational level is:,a7a,What is your current highest level of education (including those you are currently studying),a7alab,"-3 refuse to answer
+1 without any education
+2 Private schools and literacy classes
+3 primary school
+4 junior high school
+5 Vocational High School
+6 ordinary high school
+7 technical secondary school
+8 technical school
+9. College (adult higher education)
+10 College and junior college (formal higher education)
+11 Undergraduate (Adult Higher Education)
+12 Undergraduate degree (formal higher education)
+13 graduate students and above
+14 others"
+77,Household survey/telephone survey,A7a/A7a1,"What is your current highest educational level: Other, please specify",a7aa,"Your current highest level of education is - Other, please indicate",,
+78,Household survey/telephone survey,A7b,Your highest current educational level is:,a7b,Your current highest educational status is,a7blab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 reading
+2 Dropping out of school and dropping out of school
+3 drop out of school
+4 graduation"
+79,Household survey,A7c,In what year was your highest degree completed?,a7c,In which year did you obtain the highest degree you have completed?,a7clab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+80,Household survey/telephone survey,A8a,What was your total income last year (2022)?,a8a,What was your total income last year (2022)?,a8alab,"9999996 Income is higher than one million digits
+9999997 Not applicable
+9999998 Don’t know
+9999999 refuse to answer"
+81,Household survey,A8b,What was your personal professional/labor income last year (2022)?,a8b,What was your personal professional/labor income last year (2022)?,a8blab,"-5 Telephone survey not investigated
+9999996 Income is higher than one million digits
+9999997 Not applicable
+9999998 Don’t know
+9999999 refuse to answer"
+82,Household survey,A9,"Excuse me, have you ever submitted an application to join the Communist Party of China?",a9,"Excuse me, have you ever submitted an application to join the Communist Party of China?",a9lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 has not been submitted
+2 submitted"
+83,Household survey,A9,"Excuse me, have you ever submitted an application to join the Communist Party of China? Time of first submission",a9a,The first time to submit the application is,a9alab,"-5 Telephone survey not investigated
+-2 don’t know
+-1 not applicable"
+84,Household survey/telephone survey,A10,The current political landscape is:,a10,What is your current political profile?,a10lab,"-3 refuse to answer
+-2 don’t know
+1 crowd
+2 Communist Youth League members
+3 Democratic parties
+4 Communist Party members"
+85,Household survey/telephone survey,A10/A10a,The current political landscape is: the time to join the party is,a10a,Your current political status is that you are a member of the Communist Party. When did you join the party?,a10alab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+86,Household survey/telephone survey (random),A11,The built-up area of ​​the house you currently live in is:,a11,The built-up area of ​​the house you currently live in is,a11lab,"-3 refuse to answer
+-2 don’t know"
+87,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Owned by yourself,a121,The property rights of your current house belong to - yourself,a12lab,"-3 refuse to answer
+-2 don’t know
+1 is
+2 no"
+88,Household survey/telephone survey (random),A12,Who owns the property (part or all) of your current house (multiple choices)? Owned by your spouse,a122,The property rights of your current house belong to your spouse,,
+89,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Owned by your children,a123,The property rights of your current house belong to - your children,,
+90,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Owned by your parents,a124,The property rights of your current house belong to - your parents,,
+91,Household survey/telephone survey (random),A12,"Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Owned by your spouse, parents",a125,The property rights of your current house belong to your spouse’s parents,,
+92,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Owned by children and spouses,a126,"The property rights of your current house belong to - your children, spouse",,
+93,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Other family members/relatives own it,a127,The property rights of your current house belong to other family members/relatives,,
+94,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? It is owned by individuals or organizations other than family members/relatives. This house is rented (borrowed),a128,The property rights of your current house belong to an individual or unit other than your family/relatives. This house is rented (borrowed).,,
+95,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Others,a129,The property rights of your current house belong to - Others,,
+96,Household survey/telephone survey (random),A12/A12a1,"Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Others, please indicate",a129a,"The property rights of your current house belong to - Others, please indicate",,
+97,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Don’t know,delete variable,,,
+98,Household survey/telephone survey (random),A12,Who owns the property rights (partial or full property rights) of your current house (multiple choices)? Refuse to answer,delete variable,,,
+99,Household survey/telephone survey (random),A12a,Do you currently own (including jointly own with others) real estate (have title)?,a12a,Do you currently own (including jointly own with others) real estate (have title),a12alab,"-3 refuse to answer
+-2 don’t know
+1 is
+2 no"
+100,Household survey/telephone survey (random),A12b,How many properties do you currently own in total (including jointly owned with others):,a12b,How many properties do you currently own in total (including jointly owned with others),a12blab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+101,Household survey,A12c1,Where are the various properties you (currently own) located? [Province/autonomous region/municipality],a12c1a,Location of your (currently owned) 1st property - province/autonomous region/municipality,s41lab,
+102,Household survey,A12c1,Where are the various properties you (currently own) located? [City+County/District],delete variable,,,
+103,Household survey,A12c2,Where are the various properties you (currently own) located? [Province/autonomous region/municipality],a12c2a,Location of your (currently owned) 2nd property - province/autonomous region/municipality,s41lab,
+104,Household survey,A12c2,Where are the various properties you (currently own) located? [City+County/District],delete variable,,,
+105,Household survey,A12c3,Where are the various properties you (currently own) located? [Province/autonomous region/municipality],a12c3a,Location of your (currently owned) 3rd property - province/autonomous region/municipality,s41lab,
+106,Household survey,A12c3,Where are the various properties you (currently own) located? [City+County/District],delete variable,,,
+107,Household survey,A12c4,Where are the various properties you (currently own) located? [Province/autonomous region/municipality],a12c4a,Location of your (currently owned) 4th property - province/autonomous region/municipality,s41lab,
+108,Household survey,A12c4,Where are the various properties you (currently own) located? [City+County/District],delete variable,,,
+109,Household survey,A12c5,Where are the various properties you (currently own) located? [Province/autonomous region/municipality],a12c5a,Location of your (currently owned) 5th property - province/autonomous region/municipality,s41lab,
+110,Household survey,A12c5,Where are the various properties you (currently own) located? [City+County/District],delete variable,,,
+111,Household survey/telephone survey,A13,Your current height is: (cm),a13,Your current height is (cm),a13lab,"-3 refuse to answer
+-2 don’t know"
+112,Household survey/telephone survey,A14,Your current weight is: (catties),a14,Your current weight is (catties),a14lab,"-3 refuse to answer
+-2 don’t know"
+113,Household survey/telephone survey,A15,Do you think your current physical health status is:,a15,Do you think your current physical health status is,a15lab,"-3 refuse to answer
+-2 don’t know
+1 Very unhealthy
+2 relatively unhealthy
+3 average
+4 relatively healthy
+5 very healthy"
+114,Household survey/telephone survey,A16,"In the past four weeks, how often have health problems affected your work or other daily activities:",a16,"In the past four weeks, how often have health problems affected your work or other daily activities?",a16lab,"-2 don’t know
+1 always
+2 often
+3 sometimes
+4 rarely
+5 never"
+115,Household survey/telephone survey,A17,"In the past four weeks, how often have you felt depressed or depressed:",a17,"In the past four weeks, how often have you felt depressed or depressed?",a17lab,"-3 refuse to answer
+-2 don’t know
+1 always
+2 often
+3 sometimes
+4 rarely
+5 never"
+116,Household survey/telephone survey,A18,Your current household registration status is:,a18,Your current account registration status is,a18lab,"-3 refuse to answer
+1 Agricultural household registration
+2 Non-agricultural household registration
+3 Residential household registration (formerly agricultural household registration)
+4 Residential household registration (formerly non-agricultural household registration)
+5 Military status
+6 No household registration
+7 others"
+117,Household survey/telephone survey,A18/A18a,"Your current household registration status is: Other, please indicate",a18a,"Your current household registration status is - Other, please indicate",,
+118,Household survey,A19,In which year did you obtain your (current) non-agricultural household registration?,a19,In which year did you obtain your current non-agricultural household registration?,a19lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+9997 since the beginning/birth"
+119,Household survey,A19a,In which year did you change your registered permanent residence?,a19a,In which year did you become a resident?,a19alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+9997 since the beginning/birth"
+120,Household survey,A20,How did you obtain a non-agricultural household registration?,a20,How you can obtain non-agricultural household registration,a20lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Going to higher education
+2 Join the army
+3 Work (recruitment, etc.)
+4 Twist dry
+5 Land acquisition (including village conversion)
+6. Transfer of family members (including through marriage)
+7 Purchase, or by purchasing a house
+8. Hukou reform, local agricultural hukou no longer exists
+9 others"
+121,Household survey,A20,"How did you obtain a non-agricultural household registration? Others, please specify",a20a,"How did you obtain non-agricultural household registration - other, please indicate",,
+122,Household survey,A21,Your current household registration place is:,a21,Your current household registration place,a21lab,"-5 Telephone survey not investigated
+1 Township (town, street)
+2 Other townships (towns, streets) in this county (city, district)
+3 Outside this district/county/county-level city
+4 Accounts to be determined"
+123,Household survey,A22,Your current household registration place is: [Province/Autonomous Region/Municipality],a221,Your current household registration place - province/autonomous region/municipality,s41lab,
+124,Household survey,A22,Your current household registration place is: [city + county/district],delete variable,,,
+125,Household survey,A25,In which year did you come to live locally (this district/county/county-level city)?,a25,In which year did you come to live in the local area (this district/county/county-level city)?,a25lab,"-5 Telephone survey not investigated
+9996 Only staying in the local area for a short period of time, such as visiting relatives or students returning home during summer vacation
+9997 Has lived in the local area since birth"
+126,Household survey/telephone survey,A25a,What type of area do you live in:,a25a,What type of area do you live in?,a25alab,"-3 refuse to answer
+-2 don’t know
+1 City center area
+2 Urban fringe areas or urban-rural fringe areas
+3 towns
+4 rural areas"
+127,Household survey/telephone survey (random),A281,"In the past year, your use of the following media was: Newspapers",a281,"In the past year, your use of the following media was - Newspapers",a28lab,"-3 refuse to answer
+-2 don’t know
+1 never
+2 rarely
+3 sometimes
+4 often
+5 very often"
+128,Household survey/telephone survey (random),A282,"In the past year, your use of the following media was: Magazines",a282,"In the past year, your use of the following media was - Magazines",,
+129,Household survey/telephone survey (random),A283,"In the past year, your use of the following media was: Radio",a283,"In the past year, your use of the following media was - Radio",,
+130,Household survey/telephone survey (random),A284,"In the past year, your use of the following media was: Television",a284,"In the past year, your use of the following media was - Television",,
+131,Household survey/telephone survey (random),A285,"In the past year, your usage of the following media was: Internet (online using mobile phones, computers, tablets, smart wearable devices, etc.)",a285,"In the past year, your usage of the following media was - Internet (online using mobile phones, computers, tablets, smart wearable devices, etc.)",,
+132,Household survey/telephone survey (random),A29,Which of the above media is your main source of information?,a29,Which of the above media is your main source of information?,a29lab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 newspaper
+2 magazines
+3 broadcast
+4 TV
+5 Internet (use mobile phones, computers, tablets, smart wearable devices, etc. to access the Internet)"
+133,Household survey/telephone survey (random),A301,"In the past year, how often did you do the following activities in your free time? Watch TV or watch DVDs",a3001,"In the past year, have you often engaged in the following activities in your free time - watching TV or DVDs?",a30lab,"-3 refuse to answer
+-2 don’t know
+1 per day
+2 several times a week
+3 times a month
+4 Several times a year or less
+5 never"
+134,Household survey/telephone survey (random),A302,"In the past year, how often did you do the following activities in your free time? go out to watch a movie",a3002,"In the past year, have you often engaged in the following activities in your free time - Going out to watch movies",,
+135,Household survey/telephone survey (random),A303,"In the past year, how often did you do the following activities in your free time? Shopping",a3003,"In the past year, have you often engaged in the following activities in your free time - shopping?",,
+136,Household survey/telephone survey (random),A304,"In the past year, how often did you do the following activities in your free time? Reading/newspaper/magazine",a3004,"In the past year, have you often engaged in the following activities in your free time - reading/newspapers/magazines",,
+137,Household survey/telephone survey (random),A305,"In the past year, how often did you do the following activities in your free time? Attend cultural events (such as concerts, shows and exhibitions)",a3005,"In the past year, have you often engaged in the following activities in your free time - participated in cultural activities, such as attending concerts, watching performances or exhibitions",,
+138,Household survey/telephone survey (random),A306,"In the past year, how often did you do the following activities in your free time? Gathering with relatives who don’t live together",a3006,"In the past year, have you often engaged in the following activities in your free time - gathering with relatives who do not live with you",,
+139,Household survey/telephone survey (random),A307,"In the past year, how often did you do the following activities in your free time? Party with friends",a3007,"In the past year, have you often engaged in the following activities in your free time - Partying with friends",,
+140,Household survey/telephone survey (random),A308,"In the past year, how often did you do the following activities in your free time? listen to music at home",a3008,"In the past year, have you often engaged in the following activities in your free time - Listening to music at home",,
+141,Household survey/telephone survey (random),A309,"In the past year, how often did you do the following activities in your free time? participate in physical exercise",a3009,"In the past year, have you often engaged in the following activities in your free time - Participated in physical exercise",,
+142,Household survey/telephone survey (random),A3010,"In the past year, how often did you do the following activities in your free time? Watch sports matches live",a3010,"In the past year, have you often engaged in the following activities in your free time - Watching live sports events",,
+143,Household survey/telephone survey (random),A3011,"In the past year, how often did you do the following activities in your free time? Doing crafts (such as embroidery, woodworking)",a3011,"In the past year, have you often engaged in the following activities in your free time - doing handicrafts, such as embroidery, carpentry",,
+144,Household survey/telephone survey (random),A3012,"In the past year, how often did you do the following activities in your free time? Internet access",a3012,"In the past year, have you often engaged in the following activities in your free time - surfing the Internet",,
+145,Household survey/telephone survey (random),A30a,Do you have a mobile phone that you use alone?,a30a,Do you have a mobile phone that you use alone?,a30alab,"-2 don’t know
+1 Yes
+2 no"
+146,Household survey/telephone survey (random),A30d,How many mobile phone numbers do you use daily?,a30d,How many mobile phone numbers do you use daily?,a30dlab,"-3 refuse to answer
+-2 don’t know"
+147,Household survey,A311,"In the past year, how often did you do the following in your free time? Socializing/dropping in",a311,"In the past year, how often did you do the following things in your free time - Socialize",a31lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 never
+2 rarely
+3 sometimes
+4 often
+5 very often"
+148,Household survey,A312,"In the past year, how often did you do the following in your free time? rest and relax",a312,"In the past year, how often did you do the following in your free time - Rest and relax",,
+149,Household survey,A313,"In the past year, how often did you do the following in your free time? Learn to recharge",a313,"In the past year, did you often do the following things in your free time - study and recharge",,
+150,Household survey,A31a,"How often do you engage in social and recreational activities with your neighbors (such as visiting each other, watching TV, eating, playing cards, etc.)",a31a,How often do you engage in social and recreational activities with your neighbors?,a31alab,"-5 Telephone survey not investigated
+-2 don’t know
+1 almost every day
+2 1 to 2 times a week
+3 several times a month
+4 About once a month
+5 several times a year
+6 Once a year or less
+7 never"
+151,Household survey,A31b,"How often do you engage in social entertainment activities with other friends (such as visiting each other, watching TV, eating, playing cards, etc.)",a31b,How often do you engage in social and recreational activities with other friends,a31blab,"-5 Telephone survey not investigated
+-2 don’t know
+1 almost every day
+2 1 to 2 times a week
+3 several times a month
+4 About once a month
+5 several times a year
+6 Once a year or less
+7 never"
+152,Household survey/telephone survey (random),A32,"In the past year, how many nights have you spent a night away from home because you were on vacation or visiting family or friends?",a32,"In the past year, how many nights have you spent away from home because you were on vacation or visiting family or friends?",a32lab,"-3 refuse to answer
+-2 don’t know
+1 never
+2 1-5 nights
+3 6-10 nights
+4 11-20 nights
+5 21-30 nights
+6 over 30 nights"
+153,Household survey/telephone survey,A33,"Generally speaking, do you agree that in this society, the vast majority of people can be trusted?",a33,"Generally speaking, do you agree that in this society, the vast majority of people can be trusted?",a33lab,"-3 refuse to answer
+-2 don’t know
+1 strongly disagree
+2 quite disagree
+3 I can’t say whether I agree or disagree.
+4 quite agree
+5 strongly agree"
+154,Household survey/telephone survey (random),A34,"Generally speaking, do you agree that in this society, if you are not careful, others will find ways to take advantage of you?",a34,"Generally speaking, do you agree that in this society, if you are not careful, others will find ways to take advantage of you?",a34lab,"-3 refuse to answer
+-2 don’t know
+1 strongly disagree
+2 quite disagree
+3 I can’t say whether I agree or disagree.
+4 quite agree
+5 strongly agree"
+155,Household survey/telephone survey (random),A35,"Overall, do you think today's society is fair?",a35,"Generally speaking, do you think today’s society is fair or unfair?",a35lab,"-3 refuse to answer
+-2 don’t know
+1 Totally unfair
+2 Comparatively unfair
+3 It can’t be said to be fair, but it can’t be said to be unfair either.
+4 Fairer
+5 completely fair"
+156,Household survey/telephone survey,A36,"Overall, do you feel your life is happy?",a36,"Overall, do you feel your life is happy?",a36lab,"-3 refuse to answer
+-2 don’t know
+1 very unhappy
+2 relatively unhappy
+3 I can’t say whether I am happy or not.
+4 relatively happy
+5 very happy"
+157,Household survey/telephone survey,A37,"If there were no policy restrictions, how many children would you like to have?",a371,How many children would you like to have if there were no policy restrictions?,a37lab,"-3 refuse to answer
+-2 don’t know
+97 It doesn’t matter"
+158,Household survey/telephone survey,A37,"If there were no policy restrictions, how many children would you like to have? son",a372,"If there were no policy restrictions, how many sons would you like to have?",,
+159,Household survey/telephone survey,A37,"If there were no policy restrictions, how many children would you like to have? daughter",a373,"If there were no policy restrictions, how many daughters would you like to have?",,
+160,Household survey/telephone survey,A38,Do you think it’s right to have sex before marriage?,a38,Do you think having sex before marriage is right?,a38lab,"-3 refuse to answer
+-2 don’t know
+1 is always wrong
+2 This is not true in most cases
+3 Can’t tell whether it’s right or wrong
+4 is sometimes right
+5 is absolutely right"
+161,Household survey/telephone survey,A39,Do you think it’s right to have sex outside of marriage?,a39,Do you think having sex outside marriage is right?,a39lab,"-3 refuse to answer
+-2 don’t know
+1 is always wrong
+2 This is not true in most cases
+3 Can’t tell whether it’s right or wrong
+4 is sometimes right
+5 is absolutely right"
+162,Household survey/telephone survey,A40,Do you think same-sex sex is right?,a40,Do you think same-sex sexual behavior is right?,a40lab,"-3 refuse to answer
+-2 don’t know
+1 is always wrong
+2 This is not true in most cases
+3 Can’t tell whether it’s right or wrong
+4 is sometimes right
+5 is absolutely right"
+163,Household survey/telephone survey (random),A41,Who do you think should be primarily responsible for the care of elderly people with children?,a41,Who do you think should be primarily responsible for the care of elderly people with children?,a41lab,"-3 refuse to answer
+-2 don’t know
+1 Mainly the responsibility of the government
+2 Mainly responsible for children
+3 It is mainly the responsibility of the elderly themselves
+4 Government/children/elderly responsibilities are equally shared"
+164,Telephone survey,None/A41new,What is the relationship between your current place of residence and your place of household registration?,a41new,The relationship between your current place of residence and your place of household registration,a41newlab,"-4 Household interviews but no investigation
+-3 refuse to answer
+1 Within the same county-level unit
+2 The same place or city but different county-level units
+3 Same province but different places or cities
+4 different provinces"
+165,Telephone survey,None/A42new,What is your current occupation?,a42new,your current occupation,a42newlab,"-4 Household interviews but no investigation
+-3 refuse to answer
+-2 don’t know
+1 Workers in agriculture, forestry, animal husbandry and fishery
+2 Unskilled workers (manual workers)
+3 Skilled workers (manual workers)
+4 Business and service industry personnel
+5 General office staff
+6 Middle managers
+7 Senior managers and heads of units
+8 General professional and technical personnel
+9 Intermediate professional and technical personnel
+10 senior professional and technical personnel
+11 Private Business Owners
+12 self-employed
+13 Military or police
+14 students
+15 Retirement
+16 unemployed/unemployed
+17 others"
+166,Telephone survey,None/A42anew,"Others, please specify:",a42anew,"Your current occupation - other, please indicate",,
+167,Household survey/telephone survey (random),A421,Do you agree with the following statement: Men put career first and women put family first,a421,"Do you agree - Men put career first, women put family first",a42lab,"-3 refuse to answer
+-2 don’t know
+1 totally disagree
+2 quite disagree
+3 It doesn’t matter whether you agree or disagree.
+4 quite agree
+5 completely agree"
+168,Household survey/telephone survey (random),A422,Do you agree with the following statement: Men are inherently more capable than women,a422,Do you agree that men are inherently more capable than women?,,
+169,Household survey/telephone survey (random),A423,Do you agree with the following statement: Marrying well is worse than doing well,a423,Do you agree - doing well is not as good as marrying well?,,
+170,Household survey/telephone survey (random),A424,"Do you agree with the statement: In a recession, women should be laid off first?",a424,"Do you agree - in a recession, female employees should be laid off first",,
+171,Household survey/telephone survey (random),A425,Do you agree with the following statement: Couples should share housework equally,a425,Do you agree - couples should share housework equally,,
+172,Household survey/telephone survey,A43a,"In our society, some people are in the upper class of society and some people are in the lower class of society. Taken together, in the current society, where do you belong?",a43a,您认为自己目前处于哪个等级上,a43lab,"-3 refuse to answer
+-2 don’t know
+1 1 points
+2 2 points
+3 3 points
+4 4 points
+5 5 points
+6 6 points
+7 7 points
+8 8 points
+9 9 points
+10 10 points"
+173,Household survey/telephone survey,A43b,"In our society, some people are in the upper class of society and some people are in the lower class of society. Where do you think you were 10 years ago?",a43b,Where do you think you were 10 years ago?,,
+174,Household survey/telephone survey,A43c,"In our society, some people are in the upper class of society and some people are in the lower class of society. Where do you think you will be in 10 years?",a43c,Where do you think you will be in 10 years?,,
+175,Household survey/telephone survey,A43d,"In our society, some people are in the upper class of society and some people are in the lower class of society. Where do you think your family was when you were 14?",a43d,Where do you think your family was when you were 14?,,
+176,Household survey/telephone survey,A43e,"Taken together, in the current society, your socioeconomic status belongs to:",a43e,Your current socioeconomic status,a43elab,"-3 refuse to answer
+-2 don’t know
+1 upper level
+2 upper middle class
+3 middle level
+4 lower middle class
+5 lower level"
+177,Household survey/telephone survey (random),A44,Did you vote in the last neighborhood committee election/village committee election?,a44,Did you vote in the last neighborhood committee election/village committee election?,a44lab,"-2 don’t know
+1 is
+2 no
+3 Not eligible to vote"
+178,Household survey,A45,Are you a trade union member?,a45,Are you a trade union member?,a45lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 is
+2 It used to be, but it’s not now
+3 never"
+179,Household survey/telephone survey,A46,"If someone makes comments critical of the government in a public place, the government should not interfere. Do you agree?",a46,"Do you agree with the following statement - If someone makes comments critical of the government in a public place, the government should not interfere.",a46lab,"-3 refuse to answer
+-2 don’t know
+1 totally disagree
+2 quite disagree
+3 It doesn’t matter whether you agree or disagree.
+4 quite agree
+5 completely agree"
+180,Household survey/telephone survey,A47,How many children to have is a personal matter and the government should not interfere. Do you agree?,a47,Do you agree with the following statement - How many children to have is a personal matter and the government should not interfere.,a47lab,"-3 refuse to answer
+-2 don’t know
+1 totally disagree
+2 quite disagree
+3 It doesn’t matter whether you agree or disagree.
+4 quite agree
+5 completely agree"
+181,Household survey/telephone survey,A48,Where to work and live is an individual's freedom and the government should not interfere. Do you agree?,a48,Do you agree with the following statement - Where to work and live is an individual's freedom and the government should not interfere.,a48lab,"-3 refuse to answer
+-2 don’t know
+1 totally disagree
+2 quite disagree
+3 It doesn’t matter whether you agree or disagree.
+4 quite agree
+5 completely agree"
+182,Household survey,A49,What level do you think your ability to listen to Mandarin is?,a49,What level do you think your ability to listen to Mandarin is?,a49lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 Don’t understand at all
+2 relatively poor
+3 average
+4 better
+5 very good"
+183,Household survey,A50,What do you think your ability to speak Mandarin is?,a50,What level do you think your ability to speak Mandarin is?,a50lab,"-5 Telephone survey not investigated
+1 Can’t say at all
+2 relatively poor
+3 average
+4 better
+5 very good"
+184,Household survey,A51,What level do you think your ability to listen to English is?,a51,What level do you think your ability to listen to English is?,a51lab,"-5 Telephone survey not investigated
+-2 don’t know
+1 Don’t understand at all
+2 relatively poor
+3 average
+4 better
+5 very good"
+185,Household survey,A52,What level do you think your English speaking ability is?,a52,What level do you think your English speaking ability is?,a52lab,"-5 Telephone survey not investigated
+-2 don’t know
+1 Can’t say at all
+2 relatively poor
+3 average
+4 better
+5 very good"
+186,Household survey,A53,Did you perform any paid work for more than one hour last week (including serving in the military)?,a53,Did you work for more than one hour for income last week (including joining the military),a53lab,"-5 Telephone survey not investigated
+1. Not engaged in any work for the purpose of obtaining economic income
+2. Paid vacation, study, temporary suspension of work or seasonal closure, etc.
+3. Vacation without pay, study, temporary suspension of work or seasonal closure, etc.
+4 Engaged in work for the purpose of obtaining economic income"
+187,Household survey,A53aa,What are the typical working hours per week?,a531,"If you worked for more than one hour for income last week, how many hours did you usually work per week?",a531lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+188,Household survey,A53a,"When you are employed, how many hours do you typically work in a week, including overtime?",a53a,"When you have a job, how many hours do you usually work per week, including overtime?",a53alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-1 not applicable"
+189,Household survey,A54,What was the reason you didn't work last week?,a54,The reason why you didn't work last week,a54lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Studying at school
+2 Loss of working ability
+3 Not working after graduation
+4 Lost his original job due to work reasons
+5 Lost your original job due to personal reasons
+6 Contracted land was expropriated
+7 divorce/retirement
+8 Housework
+9 others"
+190,Household survey,A54a,"What was the reason you didn't work last week? Others, please specify",a54a,"The reason why you were not working last week - other, please specify",,
+191,Household survey,A55,How many months have you been without work so far?,a55,How many months have you been without work so far?,a55lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+997 Never worked"
+192,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) Never looked for a job,a561,Which of the following methods have you used to look for work in the past three months? - Have not looked for a job?,a56lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 is
+2 no"
+193,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choices) Register for job search at an employment agency,a562,Which of the following methods have you used to look for work in the past three months - registering for employment with an employment agency,,
+194,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) Entrust relatives and friends to find a job,a563,Which of the following methods have you used to find a job in the past three months - entrusting relatives and friends to find a job?,,
+195,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) Use the Internet and other media to find jobs,a564,Which of the following methods have you used to search for jobs in the past three months - using the Internet and other media to search for jobs?,,
+196,Household survey,A56,"In which of the following ways have you looked for work in the past three months? (Multiple choices) Attend job fairs, or come to inquire directly",a565,Which of the following methods have you used to look for jobs in the past three months - attending job fairs or making direct inquiries on your own?,,
+197,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) Prepare for own business,a566,Which of the following methods have you used to find a job in the past three months to prepare for your own business?,,
+198,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) Others,a567,Which of the following methods have you used to look for work in the past three months - Other,,
+199,Household survey,A56,"In which of the following ways have you looked for work in the past three months? (Multiple choice) Others, please specify",a567a,"Which of the following methods have you used to look for work in the past three months - others, please indicate",,
+200,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice) I don’t know,delete variable,,,
+201,Household survey,A56,In which of the following ways have you looked for work in the past three months? (Multiple choice)Refuse to answer,delete variable,,,
+202,Household survey,A57a,"If a suitable job becomes available, can you start within two weeks?",a57a,"If a suitable job becomes available, can you start working within two weeks?",a57alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 can
+2 cannot"
+203,Household survey,A58,What is your work experience and status?,a58,Your work experience and status,a58lab,"-5 Telephone survey not investigated
+1 Currently engaged in non-agricultural work
+2 Currently engaged in farming, and have had non-agricultural jobs
+3 Currently engaged in farming and have never had a non-agricultural job
+4 Currently have no job, and have only worked in farming
+5 Currently not working, but have had non-agricultural jobs in the past
+6 Never worked"
+204,Household survey,A58a,Do you currently hold multiple jobs?,a58a,Do you currently hold multiple jobs?,a58alab,"-5 Telephone survey not investigated
+-2 don’t know
+-1 not applicable
+1 no
+2 Yes"
+205,Household survey,A58aa,How many jobs do you have in total?,a58aa,"Do you currently hold multiple jobs? Yes, how many jobs do you have in total?",a58aalab,"-5 Telephone survey not investigated
+-2 don’t know
+-1 not applicable"
+206,Household survey,A58b,What percentage of your career income does your current main job account for?,a58b,Approximately what percentage of your career income does your current main job account for?,a58blab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 The main job is farming"
+207,Household survey,A59a,Which of the following situations is more consistent with your current job situation?,a59a,Which of the following situations is more consistent with your current work situation?,a59alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-1 not applicable
+1 Be the boss (or partner)
+2 Individual industrial and commercial households
+3 Employed by others (with a fixed employer)
+4 Labor workers/labor dispatch personnel
+5 Occasional workers and casual workers (employees without a fixed employer)
+6 Work/help in your own business/enterprise and receive a salary
+7. Work/help in your own business/enterprise without receiving salary.
+8 freelancers
+9 others"
+208,Household survey,A59aa,"Which of the following situations is more consistent with your current job situation? Others, please specify",a59aa,"Among the following situations, which one is more in line with your current work situation - others, please indicate",,
+209,Household survey,A59a1,How many employees do you have?,a59a1,Which of the following situations is more consistent with your current work situation: How many employees do you have?,a59a1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 Employs more than five digits"
+210,Household survey,A59b,Does your current job have a written labor contract with your employer?,a59b,Does your current job have a written labor contract with the employer or employer?,a59blab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 No labor contract signed
+2 Sign a labor contract with no fixed term
+3 Sign a fixed-term labor contract"
+211,Household survey,A59ba,How many months is the term?,a59ba,"If you sign a fixed-term labor contract, how many months will it last?",a59balab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+212,Household survey,A59c,How many years have you worked in total from your first non-farm job to your current job?,a59c,How many years have you worked in total from your first non-agricultural job to your current job?,a59clab,"-5 Telephone survey not investigated
+-2 don’t know
+-1 not applicable"
+213,Household survey,A59e,What is the nature of your current job?,a59e,The nature of your current job is,a59elab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 full-time job
+2 Part-time jobs"
+214,Household survey,A59e1,"If you hold an administrative position, your administrative level is:",a59e1,Your administrative level is,a59e1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 does not hold any administrative position
+1 no level
+2 shares
+3 deputy section level
+4 regular subject level
+5 deputy director level
+6 senior level
+7 Deputy director level and above"
+215,Household survey,A59f,"In your current job, your management activities include:",a59f,"In your current job, what are your management activities?",a59flab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Just care about others and not be managed by others
+2 Both manage others and be managed by others
+3. Only managed by others, not managed by others
+4 Neither manages others nor is managed by others"
+216,Household survey,A59f1,How many people do you manage?,a59f1,"In your current job, what are your management activities - how many people do you manage?",a59f1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 The number of managers exceeds five digits"
+217,Household survey,A59j,The organization type of the organization or company you currently work for is:,a59j,您目前工作的单位或公司的单位类型是,a59jlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Party and government organs
+2 companies
+3 public institutions
+4 Social groups, neighborhood/village committees
+5 No employer/self-employed (including self-employed)
+6 army
+7 others"
+218,Household survey,A59ja,"The unit type of the unit or company you currently work for is: Other, please indicate",a59ja,"The type of unit or company unit you currently work for - other, please indicate",,
+219,Household survey,A59k,The ownership nature of the unit or company you currently work for is:,a59k,What is the ownership nature of the unit or company you currently work for?,a59klab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 State-owned or state-controlled
+2 Collective ownership or collective holding
+3 Private/Private or Private/Private Holding
+4 Hong Kong, Macao and Taiwan capital or Hong Kong, Macao and Taiwan capital holdings
+5 Foreign-owned or foreign-controlled
+6 others"
+220,Household survey,A59ka,"The ownership nature of the unit or company you currently work for is: Other, please indicate",a59ka,"The ownership nature of the unit or company you currently work for is - other, please indicate",,
+221,Household survey,A59L,How many employees does your current workplace or company have?,a59l,How many employees does your current workplace or company have?,a59llab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 Number of employees exceeds five digits"
+222,入户调查,A59m,How many years have you been with your current workplace or company so far?,a59m,How many years have you worked at your current workplace or company?,a59mlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+223,Household survey,A60a,Which of the following situations is more consistent with your recent non-agricultural job?,a60a,Which of the following situations is more consistent with your recent non-agricultural job?,a60alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Be the boss (or partner)
+2 Individual industrial and commercial households
+3 Employed by others (with a fixed employer)
+4 Labor workers/labor dispatch personnel
+5 Occasional workers and casual workers (employees without a fixed employer)
+6 Work/help in your own business/enterprise and receive a salary
+7. Work/help in your own business/enterprise without receiving salary.
+8 freelancers
+9 others"
+224,Household survey,A60aa,"Which of the following situations is more consistent with your recent non-agricultural job? Others, please specify",a60aa,"Which of the following situations is more consistent with your recent non-agricultural job? Others, please indicate",,
+225,Household survey,A60a1,How many employees do you have?,a60a1,Which of the following situations is more consistent with your recent non-agricultural job - how many employees are employed?,a60a1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 Employs more than five digits"
+226,Household survey,A60b,Did you sign a written labor contract with your employer or employer in your most recent non-agricultural job?,a60b,Did you sign a written labor contract with your employer or employer in your most recent non-agricultural job?,a60blab,"-5 Telephone survey not investigated
+-1 not applicable
+1 No labor contract signed
+2 Sign a labor contract with no fixed term
+3 Sign a fixed-term labor contract"
+227,Household survey,A60ba,"Did you sign a written labor contract with your employer or employer in your most recent non-agricultural job? If you sign a fixed-term labor contract, how many months will it last?",a60ba,"If you sign a fixed-term labor contract, how many months will it last?",a60balab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+228,Household survey,A60c,How many years have you worked in total from your first off-farm job to your most recent off-farm job?,a60c,How many years have you worked in total from your first non-agricultural job to your most recent non-agricultural job?,a60clab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+229,Household survey,A60e,What was the nature of your most recent non-agricultural job?,a60e,What was the nature of your most recent non-agricultural job?,a60elab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 full-time job
+2 Part-time jobs"
+230,Household survey,A60f,"In your most recent non-agricultural job, your management activities were:",a60f,"In your most recent non-agricultural job, what were your management activities?",a60flab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Just care about others and not be managed by others
+2 Both manage others and be managed by others
+3. Only managed by others, not managed by others
+4 Neither manages others nor is managed by others"
+231,Household survey,A60f1,How many people do you manage?,a60f1,"In your most recent non-agricultural job, how many people did you supervise?",a60f1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 The number of managers exceeds five digits"
+232,Household survey,A60j,The type of unit or company where you held your most recent non-agricultural job was:,a60j,What was the unit type of your most recent non-agricultural job?,a60jlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Party and government organs
+2 companies
+3 public institutions
+4 Social groups, neighborhood/village committees
+5 No employer/self-employed (including self-employed)
+6 army
+7 others"
+233,Household survey,A60ja,"The type of unit or company where you held your most recent non-agricultural job was: Other, please indicate",a60ja,"The unit or company type of your most recent non-agricultural job was - Other, please indicate",,
+234,Household survey,A60k,The ownership nature of your most recent non-agricultural job was:,a60k,What was the ownership nature of your most recent non-agricultural job?,a60klab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 State-owned or state-controlled
+2 Collective ownership or collective holding
+3 Private/Private or Private/Private Holding
+4 Hong Kong, Macao and Taiwan capital or Hong Kong, Macao and Taiwan capital holdings
+5 Foreign-owned or foreign-controlled
+6 others"
+235,Household survey,A60ka,"The ownership nature of the unit or company where you held your most recent non-agricultural job is: Other, please indicate",a60ka,"The ownership nature of your most recent non-agricultural job was - Other, please indicate",,
+236,Household survey,A60L,How many employees did your most recent off-farm job have?,a60l,How many employees did your most recent non-agricultural job have?,a60llab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 Number of employees exceeds five digits"
+237,Household survey,A60m,How many years have you worked at your most recent non-agricultural job?,a60m,How many years have you worked at your most recent non-agricultural job?,a60mlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+238,Household survey/telephone survey,A611,Are you currently participating in the following social security programs? Urban Basic Medical Insurance/New Rural Cooperative Medical Insurance/Public Medical Insurance,a611,Are you currently participating in the following social security projects - Urban Basic Medical Insurance/New Rural Cooperative Medical Insurance/Public Medical Insurance,a61lab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 participated
+2 did not participate"
+239,Household survey/telephone survey,A612,Are you currently participating in the following social security programs? Urban/rural basic pension insurance,a612,Are you currently participating in the following social security projects - Urban/Rural Basic Pension Insurance,,
+240,Household survey/telephone survey,A613,Are you currently participating in the following social security programs? commercial medical insurance,a613,Are you currently participating in the following social security projects - commercial medical insurance?,,
+241,Household survey/telephone survey,A614,Are you currently participating in the following social security programs? Commercial pension insurance,a614,Are you currently participating in the following social security projects - commercial pension insurance?,,
+242,Household survey/telephone survey,A62,What is your family’s total household income in 2022?,a62,Your family’s total household income last year (2022),a62lab,"9999996 Income is higher than one million digits
+9999997 Not applicable
+9999998 Don’t know
+9999999 refuse to answer"
+243,Household survey/telephone survey,A64,Where does your family's financial status fall into?,a64,Where does your family's financial status fall into?,a64lab,"-3 refuse to answer
+-2 don’t know
+1 Well below average
+2 below average
+3 average
+4 above average
+5 Well above average"
+244,Household survey/telephone survey,A65,How many properties does your family currently own?,a65,How many properties does your family currently own?,a65lab,"-3 refuse to answer
+-2 don’t know"
+245,Household survey/telephone survey,A66,Does your family own a family car?,a66,Does your family own a family car?,a66lab,"-3 refuse to answer
+-2 don’t know
+1 Yes
+2 no"
+246,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) No investment activities,a671,Is your family currently engaged in the following investment activities? -No investment activity,a67lab,"-3 refuse to answer
+-2 don’t know
+1 is
+2 no"
+247,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Stocks,a672,Is your family currently engaged in the following investment activities? -stock,,
+248,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Fund,a673,Is your family currently engaged in the following investment activities? -fund,,
+249,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Bonds,a674,Is your family currently engaged in the following investment activities? -Bonds,,
+250,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Futures,a675,Is your family currently engaged in the following investment activities? -futures,,
+251,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Warrants,a676,Is your family currently engaged in the following investment activities? -Warrants,,
+252,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Real estate speculation,a677,Is your family currently engaged in the following investment activities? -House speculation,,
+253,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Foreign exchange investment,a678,Is your family currently engaged in the following investment activities? -Forex investment,,
+254,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) Others,a679,Is your family currently engaged in the following investment activities? -other,,
+255,Household survey/telephone survey,A67a,"Is your family currently engaged in the following investment activities? (Multiple choice) Others, please specify",a679a,"Is your family currently engaged in the following investment activities? -Others, please specify",,
+256,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice) I don’t know,delete variable,,,
+257,Household survey/telephone survey,A67,Is your family currently engaged in the following investment activities? (Multiple choice)Refuse to answer,delete variable,,,
+258,Household survey/telephone survey (random),A68,"How many children do you have (including step-sons, step-daughters, adopted sons and daughters, including deceased children)? son",a681,"How many sons do you have (including step-sons, step-daughters, adopted sons and daughters, including deceased children)",a68lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 none"
+259,Household survey/telephone survey (random),A68,"How many children do you have (including step-sons, step-daughters, adopted sons and daughters, including deceased children)? daughter",a682,"How many daughters do you have (including step-sons, step-daughters, adopted sons and daughters, including deceased children)",,
+260,Household survey,A68a,How many (biological) children do you have (including deceased children)? son,a68a1,How many (biological) sons do you have (including deceased children),,
+261,Household survey,A68a,How many (biological) children do you have (including deceased children)? daughter,a68a2,How many (biological) daughters do you have (including deceased children),,
+262,Household survey/telephone survey (random),A68b,"How many minor children (including step-sons, step-daughters, and adopted children) do you have under the age of 18?",a68b,"How many minor children do you have under the age of 18 (including stepsons, stepdaughters, and adopted children)",,
+263,Household survey/telephone survey,A69,Your current marital status is:,a69,your current marital status,a69lab,"-3 refuse to answer
+1 unmarried
+2 living together
+3 First marriage with a spouse
+4 Remarry and have a spouse
+5 Separated but not divorced
+6 divorce
+7 Widowed"
+264,Household survey,A69a,Do you currently live with your spouse or common-law partner?,a69a,Do you currently live with your spouse or common-law partner?,a69alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 live together
+2 Not living together, but in the same city
+3 Not living together, in different cities in the same province
+4. Not living together, in different provinces
+5 Not living together, in different countries"
+265,Household survey,A70,When were you first married?,a70,when you first got married,a70lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+9997 never married"
+266,Household survey,A71a,In what year was your current spouse or common-law partner born?,a71a,What year was your current spouse or common-law partner born?,a71alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+267,Household survey,A71b,In what year did you and your current spouse get married?,a71b,In what year did you marry your current spouse?,a71blab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+9997 never married"
+268,Household survey/telephone survey,A72,Your spouse or common-law partner’s highest current educational level is:,a72,Your spouse or common-law partner’s highest current education level,a72lab,"-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 without any education
+2 Private schools and literacy classes
+3 primary school
+4 junior high school
+5 Vocational High School
+6 ordinary high school
+7 technical secondary school
+8 technical school
+9. College (adult higher education)
+10 College and junior college (formal higher education)
+11 Undergraduate (Adult Higher Education)
+12 Undergraduate degree (formal higher education)
+13 graduate students and above
+14 others"
+269,Household survey/telephone survey,A72a,"Your spouse or common-law partner’s current highest educational level is: Other, please specify",a72a,"Your spouse or common-law partner’s current highest education level - other, please specify",,
+270,Household survey,A73,Your spouse or common-law partner’s political affiliation is:,a73,Your spouse or common-law partner’s political affiliation,a73lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 crowd
+2 Communist Youth League members
+3 Democratic parties
+4 Communist Party members"
+271,Household survey,A74,The current household registration status of your spouse or common-law partner is:,a74,Your spouse or common-law partner’s current household registration status,a74lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Agricultural household registration
+2 Non-agricultural household registration
+3 Residential household registration (formerly agricultural household registration)
+4 Residential household registration (formerly non-agricultural household registration)
+5 Military status
+6 No household registration
+7 others"
+272,Household survey,A74a,"The current household registration status of your spouse or common-law partner is: Other, please indicate",a74a,"Current household registration status of your spouse or common-law partner - other, please indicate",,
+273,Household survey,A75a,Your spouse or common-law partner’s total income last year (2022) was,a75a,Your spouse or common-law partner’s total income last year (2022),a75alab,"-5 Telephone survey not investigated
+9999996 Income is higher than one million digits
+9999997 Not applicable
+9999998 Don’t know
+9999999 refuse to answer"
+274,Household survey,A75b,Your spouse or common-law partner’s professional/earned income last year (2022) was,a75b,Your spouse or common-law partner’s professional/earned income last year (2022),a75blab,"-5 Telephone survey not investigated
+9999996 Income is higher than one million digits
+9999997 Not applicable
+9999998 Don’t know
+9999999 refuse to answer"
+275,Household survey,A76,What was your spouse's or common-law partner's employment status last week?,a76,Your spouse or common-law partner’s employment status during the past week,a76lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1. Not engaged in any work for the purpose of obtaining economic income
+2. Paid vacation, study, temporary suspension of work or seasonal closure, etc.
+3. Vacation without pay, study, temporary suspension of work or seasonal closure, etc.
+4 Engaged in work for the purpose of obtaining economic income"
+276,Household survey,A76aa,What was your spouse's or common-law partner's employment status last week? What are the typical working hours per week?,a761,"If your spouse or common-law partner worked for financial gain last week, how many hours did they typically work per week?",a761lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+277,Household survey,A76a,"When your spouse or common-law partner is employed, your spouse or common-law partner typically works more hours in a week",a76a,"When your spouse works, how many hours does your spouse usually work per week, including overtime?",a76alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable"
+278,Household survey,A77,What was the reason your spouse or common-law partner didn't work last week?,a77,The reason your spouse or common-law partner did not work last week,a77lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Studying at school
+2 Loss of working ability
+3 Not working after graduation
+4 Lost his original job due to work reasons
+5 Lost your original job due to personal reasons
+6 Contracted land was expropriated
+7 divorce/retirement
+8 Housework
+9 others"
+279,Household survey,A77a,"What was the reason your spouse or common-law partner didn't work last week? Others, please specify",a77a,"Reason why your spouse or common-law partner did not work last week - other, please specify",,
+280,Household survey,A78,How many consecutive months has your spouse or common-law partner been without work?,a78,How many consecutive months has your spouse or common-law partner been out of work?,a78lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+997 Never worked"
+281,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) Never looked for a job,a791,In what ways has your spouse or common-law partner looked for work in the last three months - Not looked for a job,a79lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 is
+2 no"
+282,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choices) Register for job search at an employment agency,a792,What methods did your spouse or common-law partner use to find work in the last three months - registering for employment with an employment agency,,
+283,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) Entrust relatives and friends to find a job,a793,What methods did your spouse or common-law partner use to find a job in the past three months - entrusting relatives and friends to find a job,,
+284,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) Use the Internet and other media to find jobs,a794,How did your spouse or common-law partner look for work in the past three months - using the Internet and other media to find jobs?,,
+285,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choices) Participate in job fairs and inquire directly at your door,a795,In what ways has your spouse or common-law partner looked for a job in the past three months? - Attend job fairs or ask directly at your home.,,
+286,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? Prepare to run your own business,a796,In what ways has your spouse or common-law partner looked for work in the last three months - to prepare for starting your own business?,,
+287,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) Others,a797,How did your spouse or common-law partner look for work in the last three months - Other,,
+288,Household survey,A79a,"In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) Others, please specify",a797a,"What methods did your spouse or common-law partner use to find a job in the last three months - other, please indicate",,
+289,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice) I don’t know,delete variable,,,
+290,Household survey,A79,In which of the following ways has your spouse or common-law partner looked for work in the last three months? (Multiple choice)Refuse to answer,delete variable,,,
+291,Household survey,A80,"If there is a suitable job available, can your spouse or common-law partner start working within two weeks?",a80,"If a suitable job becomes available, can your spouse or common-law partner start working within two weeks?",a80lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 can
+2 cannot"
+292,Household survey,A81,What is your spouse's or common-law partner's work experience and status?,a81,Your spouse or common-law partner’s employment history and status,a81lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Currently engaged in non-agricultural work
+2 Currently engaged in farming, and have had non-agricultural jobs
+3 Currently engaged in farming and have never had a non-agricultural job
+4 Currently have no job, and have only worked in farming
+5 Currently not working, but have had non-agricultural jobs in the past
+6 Never worked"
+293,Household survey,A81a,Does your spouse or common-law partner currently hold multiple jobs?,a81a,Does your spouse or common-law partner currently hold multiple jobs?,a81alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 no
+2 Yes"
+294,Household survey,A81aa,How many jobs do you have in total?,a81aa,"If your spouse or common-law partner holds multiple jobs, how many jobs do they hold?",a81aalab,"-5 Telephone survey not investigated
+-2 don’t know
+-1 not applicable"
+295,Household survey,A81b,Approximately what percent of your spouse's or common-law partner's current professional income is accounted for by his/her main job?,a81b,Approximately what percent of your spouse's or common-law partner's current professional income is accounted for by his or her main job?,a81blab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 The main job is farming"
+296,Household survey,A82,Which of the following scenarios best describes your spouse or common-law partner's current job situation?,a82,下列各种情形，哪一种更符合您配偶或同居伴侣目前的工作状况,a82lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Be the boss (or partner)
+2 Individual industrial and commercial households
+3 Employed by others (with a fixed employer)
+4 Labor workers/labor dispatch personnel
+5 Occasional workers and casual workers (employees without a fixed employer)
+6 Work/help in your own business/enterprise and receive a salary
+7. Work/help in your own business/enterprise without receiving salary.
+8 freelancers
+9 others"
+297,Household survey,A82aa,"Which of the following scenarios best describes your spouse or common-law partner's current job situation? Others, please specify",a821,"Current employment status of your spouse or common-law partner - other, please specify",,
+298,Household survey,A82a,How many employees does your spouse or common-law partner have:,a82a,"If your spouse or common-law partner is a boss (or partner) or self-employed, how many employees do you have?",a82a1lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 Employs more than five digits"
+299,Household survey,A83a,Does your spouse or common-law partner’s current job have a written labor contract with the employer?,a83a,Does your spouse or common-law partner’s current job have a written labor contract with the employer or employer?,a83alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 No labor contract signed
+2 Sign a labor contract with no fixed term
+3 Sign a fixed-term labor contract"
+300,Household survey,A83aa,"If you sign a fixed-term labor contract, how many months will it last?",a83aa,"If you sign a fixed-term labor contract, how many months will it last?",a83aalab,"-5 Telephone survey not investigated
+-1 not applicable"
+301,Household survey,A83b,"In your spouse's or common-law partner's current job, his or her management activities include:",a83b,Your spouse or common-law partner’s current work management activities,a83blab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Just care about others and not be managed by others
+2 Both manage others and be managed by others
+3. Only managed by others, not managed by others
+4 Neither manages others nor is managed by others"
+302,Household survey,A83c,How many people does he/she manage?,a83c,How many people does your spouse or common-law partner currently manage at work?,a83clab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+99996 The number of managers exceeds five digits"
+303,Household survey,A85,What is the nature of your spouse or common-law partner's current job?,a85,The nature of your spouse or common-law partner’s current job,a85lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 full-time job
+2 Part-time jobs"
+304,Household survey,A87,The type of organization or company your spouse or common-law partner currently works for is:,a87,The type of workplace or company your spouse or common-law partner currently works for,a87lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Party and government organs
+2 companies
+3 public institutions
+4 Social groups, neighborhood/village committees
+5 No employer/self-employed (including self-employed)
+6 army
+7 others"
+305,Household survey,A87a,"The type of unit or company where your spouse or common-law partner currently works is: Other, please indicate",a87a,"The type of unit or company your spouse or common-law partner currently works for - other, please indicate",,
+306,Household survey,A88,The ownership of the employer or company where your spouse or common-law partner currently works is:,a88,The nature of ownership of the employer or company where your spouse or common-law partner currently works,a88lab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 State-owned or state-controlled
+2 Collective ownership or collective holding
+3 Private/Private or Private/Private Holding
+4 Hong Kong, Macao and Taiwan capital or Hong Kong, Macao and Taiwan capital holdings
+5 Foreign-owned or foreign-controlled
+6 others"
+307,Household survey,A88a,The ownership nature of the unit or company where your spouse or common-law partner currently works is: Other please specify,a88a,"Ownership of the unit or company where your spouse or common-law partner currently works - other, please indicate",,
+308,Household survey,A89a,In what year was your father born?,a89a,In what year was your father born?,a89alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know"
+309,Household survey/telephone survey,A89b,Your father's highest level of education is:,a89b,Your father’s highest level of education,a89blab,"-3 refuse to answer
+-2 don’t know
+1 without any education
+2 Private schools and literacy classes
+3 primary school
+4 junior high school
+5 Vocational High School
+6 ordinary high school
+7 technical secondary school
+8 technical school
+9. College (adult higher education)
+10 College and junior college (formal higher education)
+11 Undergraduate (Adult Higher Education)
+12 Undergraduate degree (formal higher education)
+13 graduate students and above
+14 others"
+310,Household survey/telephone survey,A89b/A89b1,"Your father’s highest educational level is: Other, please specify",a89ba,"Your father’s highest education level - other, please specify",,
+311,Household survey,A89c,Your father's political outlook is:,a89c,your father's politics,a89clab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 crowd
+2 Communist Youth League members
+3 Democratic parties
+4 Communist Party members"
+312,Household survey,A89d,What was your father's employment status when you were 14 years old?,a89d,Your father’s employment status when you were 14,a89dlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 Employed by others (with a fixed employer)
+2 full-time farmers
+3. Work as a farmer and engage in some non-agricultural work at the same time
+4 Labor workers/labor dispatch personnel
+5 Occasional workers and casual workers (employees without a fixed employer)
+6 Work/help in your own business or enterprise and receive a salary
+7 Work/help in your own business or enterprise without receiving a salary
+8 freelancers
+9 Individual industrial and commercial households
+10 Be the boss (or partner)
+11 Retired/retired (not working)
+12 Unemployed (unemployed/laid off)
+13 Loss of labor force
+14 In school and not working
+15 Housework
+16 deceased
+17 others"
+313,Household survey,A89da,"When you were 14 years old, your father’s employment status was: Other, please indicate",a89da,"Your father’s employment status when you were 14 years old - other, please specify",,
+314,Household survey,A89f,"When you were 14 years old, if your father held an administrative position, his position level would be:",a89f,What was your father's position when you were 14?,a89flab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 does not hold any administrative position
+1 no level
+2 shares
+3 deputy section level
+4 regular subject level
+5 deputy director level
+6 senior level
+7 Deputy director level and above"
+315,Household survey,A89g,"When you were 14, the type of unit or company your father worked for was:",a89g,The type of workplace or company your father worked for when you were 14,a89glab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Party and government organs
+2 companies
+3 public institutions
+4 Social groups, neighborhood/village committees
+5 No employer/self-employed (including self-employed)
+6 army
+7 others"
+316,Household survey,A89ga,"When you were 14 years old, the type of unit or company your father worked for was: Other, please indicate",a89ga,"The type of unit or company where your father worked when you were 14 years old - other, please specify",,
+317,Household survey,A89h,"When you were 14 years old, the ownership nature of the unit or company your father worked for was:",a89h,The ownership of the unit or company where your father worked when you were 14 years old,a89hlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 State-owned or state-controlled
+2 Collective ownership or collective holding
+3 Private/Private or Private/Private Holding
+4 Hong Kong, Macao and Taiwan capital or Hong Kong, Macao and Taiwan capital holdings
+5 Foreign-owned or foreign-controlled
+6 others"
+318,Household survey,A89ha,"When you were 14 years old, the ownership nature of the unit or company your father worked for was: Other, please indicate",a89ha,"Ownership of the unit or company where your father worked when you were 14 years old - other, please indicate",,
+319,Household survey,A90a,In what year was your mother born?,a90a,In what year was your mother born?,a90alab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know"
+320,Household survey/telephone survey,A90b,Your mother's highest level of education is:,a90b,Your mother’s highest level of education,a90blab,"-3 refuse to answer
+-2 don’t know
+1 without any education
+2 Private schools and literacy classes
+3 primary school
+4 junior high school
+5 Vocational High School
+6 ordinary high school
+7 technical secondary school
+8 technical school
+9. College (adult higher education)
+10 College and junior college (formal higher education)
+11 Undergraduate (Adult Higher Education)
+12 Undergraduate degree (formal higher education)
+13 graduate students and above
+14 others"
+321,Household survey/telephone survey,A90b/A90b1,"Your mother’s highest education level is: Other, please specify",a90ba,"Your mother’s highest education level - other, please specify",,
+322,Household survey,A90c,What is your mother's political outlook?,a90c,your mother's politics,a90clab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 crowd
+2 Communist Youth League members
+3 Democratic parties
+4 Communist Party members"
+323,Household survey,A90d,What was your mother's employment status when you were 14 years old?,a90d,Your mother’s employment status when you were 14,a90dlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+1 Employed by others (with a fixed employer)
+2 full-time farmers
+3. Work as a farmer and engage in some non-agricultural work at the same time
+4 Labor workers/labor dispatch personnel
+5 Occasional workers and casual workers (employees without a fixed employer)
+6 Work/help in your own business or enterprise and receive a salary
+7 Work/help in your own business or enterprise without receiving a salary
+8 freelancers
+9 Individual industrial and commercial households
+10 Be the boss (or partner)
+11 Retired/retired (not working)
+12 Unemployed (unemployed/laid off)
+13 Loss of labor force
+14 In school and not working
+15 Housework
+16 deceased
+17 others"
+324,Household survey,A90da,"When you were 14 years old, your mother’s employment status was: Other, please indicate",a90da,"Your mother’s employment status when you were 14 years old - other, please specify",,
+325,Household survey,A90f,"If your mother held an administrative position when you were 14, her position level would be:",a90f,Your mother's job level when you were 14,a90flab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+0 does not hold any administrative position
+1 no level
+2 shares
+3 deputy section level
+4 regular subject level
+5 deputy director level
+6 senior level
+7 Deputy director level and above"
+326,Household survey,A90g,"When you were 14, the type of unit or company your mother worked at was:",a90g,The type of workplace or company your mother worked for when you were 14,a90glab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 Party and government organs
+2 companies
+3 public institutions
+4 Social groups, neighborhood/village committees
+5 No employer/self-employed (including self-employed)
+6 army
+7 others"
+327,Household survey,A90ga,"When you were 14 years old, the type of unit or company your mother worked for was: Other, please indicate",a90ga,"The type of unit or company where your mother worked when you were 14 years old - other, please indicate",,
+328,Household survey,A90h,"When you were 14 years old, the ownership of the unit or company your mother worked for was:",a90h,The ownership of the unit or company where your mother worked when you were 14 years old,a90hlab,"-5 Telephone survey not investigated
+-3 refuse to answer
+-2 don’t know
+-1 not applicable
+1 State-owned or state-controlled
+2 Collective ownership or collective holding
+3 Private/Private or Private/Private Holding
+4 Hong Kong, Macao and Taiwan capital or Hong Kong, Macao and Taiwan capital holdings
+5 Foreign-owned or foreign-controlled
+6 others"
+329,Household survey,A90ha,"When you were 14 years old, the ownership nature of the unit or company your mother worked for was: Other, please indicate",a90ha,"Ownership of the unit or company where your mother worked when you were 14 years old - other, please indicate",,
+330,Household survey/telephone survey (random),B1,"Compared to your peers, your socioeconomic status is:",b1,"Compared to your peers, what is your socioeconomic status?",b1lab,"1 higher
+2 almost
+3 lower
+9 It’s hard to say"
+331,Household survey/telephone survey (random),B2,"Compared to three years ago, your socioeconomic status is:",b2,"Compared to three years ago, your socioeconomic status is",b2lab,"1 rose
+2 almost
+3 dropped
+9 It’s hard to say"
+332,Household survey/telephone survey (random),B4,"According to your general impression, how often do your views and opinions on some important matters coincide with those of the general public?",b4,"According to your general impression, how often do your views and opinions on some important matters agree with those of the general public?",b4lab,"-3 refuse to answer
+1 very few
+2 relatively few
+3 average
+4 more
+5 very much"
+333,Household survey/telephone survey (random),B5,How is the contact and connection between you and your relatives and friends?,b5,How is your contact and contact with your relatives and friends?,b5lab,"-3 refuse to answer
+1 Very not close
+2 Not close
+3 average
+4 close
+5 very close"
+334,Household survey/telephone survey (random),B6,"Generally speaking, do you trust strangers in today's society?",b6,"Generally speaking, do you trust strangers in society today?",b6lab,"1 Very distrustful
+2 distrust
+3 average
+4 trust
+5 Very trusting"
+335,Household survey/telephone survey (random),B7a,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7a,Which of these groups do you think you belong to?,b7alab,"1 rich man
+2 poor
+8 Can’t tell"
+336,Household survey/telephone survey (random),B7b,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7b,Which of these groups do you think you belong to?,b7blab,"1 Leaders and cadres
+2 masses
+8 Can’t tell"
+337,Household survey/telephone survey (random),B7c,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7c,Which of these groups do you think you belong to?,b7clab,"1 city dweller
+2 country people
+8 Can’t tell"
+338,Household survey/telephone survey (random),B7d,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7d,Which of these groups do you think you belong to?,b7dlab,"1 property
+2 no property
+8 Can’t tell"
+339,Household survey/telephone survey (random),B7e,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7e,Which of these groups do you think you belong to?,b7elab,"1 manager
+2 managed
+8 Can’t tell"
+340,Household survey/telephone survey (random),B7f,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7f,Which of these groups do you think you belong to?,b7flab,"1 Highly educated person
+2 People with low education level
+8 Can’t tell"
+341,Household survey/telephone survey (random),B7g,"In today's society, people are often divided into different types of envy. Which one of these groups do you think you belong to?",b7g,Which of these groups do you think you belong to?,b7glab,"1 working class
+2 White-collar workers
+8 Can’t tell"
+342,Household survey/telephone survey (random),B8,"Between the various types of groups mentioned above, which two types of people do you think are most different, generally speaking?",b8,"Among the various types of groups mentioned above, generally speaking, which two types of people do you think are most different from each other?",b8lab,"1 Between the poor and the rich
+2 Between officials and common people
+3 Between city people and country people
+4 Between those who have property and those who have no property
+5 Between managers and managed
+6 Between highly educated people and low educated people
+7 Between workers and white-collar workers
+8 Can’t tell"
+343,Household survey/telephone survey (random),B9,"Among the above types of people, which two types of people do you think are most likely to have contradictions and conflicts?",b9,"Among the above types of people, which two types of people do you think are most likely to have contradictions and conflicts?",b9lab,"1 Between the poor and the rich
+2 Between officials and common people
+3 Between city people and country people
+4 Between those who have property and those who have no property
+5 Between managers and managed
+6 Between highly educated people and low educated people
+7 Between workers and white-collar workers
+8 Can’t tell"
+344,Household survey/telephone survey (random),B111,"Do the following statements conform to your living habits or your true thoughts? Unless necessary, my family and I never buy anything other than daily necessities easily",b1101,"Unless necessary, my family and I never buy anything other than daily necessities.",b11lab,"-3 refuse to answer
+1 very consistent
+2 more consistent
+3 Not quite consistent
+4 Very inconsistent"
+345,Household survey/telephone survey (random),B112,"Do the following statements conform to your living habits or your true thoughts? When my family and I celebrate birthdays or important holidays, we always go out to restaurants for dinner",b1102,"When my family and I celebrate birthdays or important holidays, we always go to nearby restaurants for dinner",,
+346,Household survey/telephone survey (random),B113,Do the following statements conform to your living habits or your true thoughts? I always go shopping in more famous stores,b1103,I always go shopping in more famous stores,,
+347,Household survey/telephone survey (random),B114,Do the following statements conform to your living habits or your true thoughts? The job I have is always stressful,b1104,The job I have is always stressful,,
+348,Household survey/telephone survey (random),B115,Do the following statements conform to your living habits or your true thoughts? I always take a taxi or a private car when I go out,b1105,I always take a taxi or a private car when I go out,,
+349,Household survey/telephone survey (random),B116,Do the following statements conform to your living habits or your true thoughts? Most of my durable consumer goods are famous brands and high-end,b1106,Most of my durable consumer goods are famous brands and high-end,,
+350,Household survey/telephone survey (random),B117,Do the following statements conform to your living habits or your true thoughts? I use a lot of art and paintings to decorate the home atmosphere.,b1107,I use a lot of art and paintings in my home to decorate the home atmosphere.,,
+351,Household survey/telephone survey (random),B118,Do the following statements conform to your living habits or your true thoughts? I always don't want to associate with people who are not in a good situation,b1108,I always don’t want to associate with people whose living conditions are not very good.,,
+352,Household survey/telephone survey (random),B119,Do the following statements conform to your living habits or your true thoughts? I feel that I am living a very comfortable and comfortable life now. There are not many things in life that make me anxious.,b1109,I feel that I am living a very comfortable and comfortable life now. There are not many things in life that make me anxious.,,
+353,Household survey/telephone survey (random),B1110,"Do the following statements conform to your living habits or your true thoughts? During my breaks, I always listen to some music or appreciate some art works",b1110,"During my breaks, I always listen to some music or appreciate some works of art",,
+354,Household survey/telephone survey (random),B1111,Do the following statements conform to your living habits or your true thoughts? Most of my rest time at home is spent watching TV,b1111,Most of my rest time at home is spent watching TV,,
+355,Household survey/telephone survey (random),B1112,"Do the following statements conform to your living habits or your true thoughts? On weekends or when I have free time, I often play cards or mahjong with others",b1112,"On weekends or when I have free time, I often play cards or mahjong with others",,
+356,Household survey/telephone survey (random),B1113,Do the following statements conform to your living habits or your true thoughts? I often go to specialized sports venues or gyms to exercise,b1113,I often go to specialized sports venues or gyms to exercise,,
+357,Household survey/telephone survey (random),B16new,"Among the following types of people, which type of person do you think should receive a higher income:",b16new,"Among the following types of people, who do you think should receive a higher income?",b16newlab,"-3 refuse to answer
+1 worker
+2 farmers
+3 State cadres
+4 Managers of state-owned and collective enterprises
+5. Those with technical expertise and high academic qualifications
+6 People with assets
+7 others"
+358,Household survey/telephone survey (random),B16new/B16anew,"Among the following types of people, which type of person do you think should receive a higher income: Others, please indicate",b16anew,"Among the following types of people, who do you think should receive higher income the most - others, please indicate",,
+359,Household survey/telephone survey (random),B17,"In comparison, which of the following groups of people do you think has benefited the most in the past 20 years?",b17,"Comparatively speaking, which of the following people do you think has gained the most benefits in the past 20 years?",b17lab,"-3 refuse to answer
+1 worker
+2 farmers
+3 State cadres
+4 Managers of state-owned and collective enterprises
+5. Those with technical expertise and high academic qualifications
+6 People with assets
+8 others"
+360,Household survey/telephone survey (random),B17/B17a,"In comparison, which of the following groups of people do you think has benefited the most in the past 20 years? Others, please specify",b17a,"Comparatively speaking, which of the following types of people do you think has gained the most benefits in the past 20 years? For others, please indicate",,
+361,Household survey/telephone survey (random),B181,The following are some statements. Do you agree? Democracy means that the government must make decisions for the people,b1801,Do you agree - Democracy means that the government should make decisions for the people,b18lab,"-3 refuse to answer
+1 agree
+2 disagree
+3 don’t know"
+362,Household survey/telephone survey (random),B182,The following are some statements. Do you agree? Only when ordinary people have a direct say or decision-making power in national and local affairs can it be considered a democracy.,b1802,Do you agree - only when the common people have a direct say or decision-making power in national and local affairs can it be considered a democracy,,
+363,Household survey/telephone survey (random),B183,"The following are some statements. Do you agree? If people have the right to elect their own representatives to discuss national and local affairs, it can be considered democracy.",b1803,"Do you agree - if people have the right to elect their own representatives to discuss national and local affairs, it can be considered democracy",,
+364,Household survey/telephone survey (random),B184,"The following are some statements. Do you agree? Everyone, regardless of level, has the same right to discuss national and local affairs.",b1804,"Do you agree that everyone, regardless of skill level, has the same right to discuss national and local issues?",,
+365,Household survey/telephone survey (random),B185,"The following are some statements. Do you agree? Discussing national and local events requires relatively high knowledge and ability, so only people with higher knowledge and ability can participate.",b1805,"Do you agree - discussing national and local events requires relatively high knowledge and ability, so only people with higher knowledge and ability can participate",,
+366,Household survey/telephone survey (random),B186,The following are some statements. Do you agree? The key to deciding national and local events is whether the results are beneficial to everyone.,b1806,Do you agree or not - the key to deciding national and local events is whether the results are beneficial to everyone,,
+367,Household survey/telephone survey (random),B187,The following are some statements. Do you agree? The key to deciding national and local events is whether the method used to make the decision is reasonable.,b1807,Do you agree or not - the key to deciding national and local affairs is whether the method used to make the decision is reasonable,,
+368,Household survey/telephone survey (random),B188,The following are some statements. Do you agree? Migrant workers in cities should enjoy the same treatment as urban residents,b1808,Do you agree that migrant workers in cities should enjoy the same treatment as urban residents?,,
+369,Household survey/telephone survey (random),B189,The following are some statements. Do you agree? More taxes should be collected from the rich to help the poor,b1809,您是否同意-应该从有钱人那里征收更多的税来帮助穷人,,
+370,Household survey/telephone survey (random),B1810,"The following are some statements. Do you agree? Now some people earn more and some earn less, but this is fair",b1810,"Do you agree - some people earn more and some earn less now, but this is fair",,
+371,Household survey/telephone survey (random),B1811,"The following are some statements. Do you agree? As long as children work hard enough and are smart enough, they all have the same opportunity to advance to higher education.",b1811,"Do you agree that as long as children work hard enough and are smart enough, they all have the same chance of further education?",,
+372,Household survey/telephone survey (random),B1814,"The following are some statements. Do you agree? In our society, the descendants of workers and farmers have just as many opportunities to become rich and prestigious as the descendants of everyone else.",b1814,"Do you agree or not that in our society, the descendants of workers and farmers have the same opportunities to become rich and well-established people as the descendants of everyone else?",,
+373,Household survey/telephone survey (random),B19a,"We often talk about living an ""ordinary life"". In your opinion, what kind of career, income, education and social status conditions should be met to live an ""ordinary life""? Career should be at least:",b19a,"To live an ordinary life, one should at least be professionally",b19alab,"-3 refuse to answer
+1 Unit leader or business owner
+2 Managers or technical staff
+3 General office staff
+4 It’s okay to do physical work"
+374,Household survey/telephone survey (random),B19b,"We often talk about living an ""ordinary life"". In your opinion, what kind of career, income, education and social status conditions should be met to live an ""ordinary life""? In terms of income, at least:",b19b,"To live an ordinary life, the income should reach",b19blab,"-3 refuse to answer
+1 upper level
+2 Upper-middle level
+3 medium level
+4 Lower-middle level
+5 doesn’t matter"
+375,Household survey/telephone survey (random),B19c,"We often talk about living an ""ordinary life"". In your opinion, what kind of career, income, education and social status conditions should be met to live an ""ordinary life""? Education should at least be:",b19c,"To live an ordinary life, education must reach",b19clab,"-3 refuse to answer
+1 Junior high school and above
+2 High school or above
+3 College degree or above
+4. Undergraduate education or above
+5 graduate students or above
+6 doesn’t matter"
+376,Household survey/telephone survey (random),B19d,"We often talk about living an ""ordinary life"". In your opinion, what kind of career, income, education and social status conditions should be met to live an ""ordinary life""? In terms of social status, it should be at least:",b19d,"To live an ordinary life, social status should be at",b19dlab,"-3 refuse to answer
+1 Very respected
+2 more respected
+3 As long as everyone can see it
+4 It doesn’t matter whether others look up to or look down upon."
+377,Household survey/telephone survey,B20/Finished,"In your case, how do you think your life compares to ""the average person's life""?",b20,"Based on your situation, how do you think your life compares with the life of ordinary people?",b20lab,"-3 refuse to answer
+1 Beyond the life of ordinary people
+2 is the life of ordinary people
+3 Not as good as ordinary people
+8 Can’t tell"
+378,Household survey,C1b,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? community organization",c1b,Are you actively participating in activities - community organizations,c1lab,"-5 Telephone survey not investigated
+1 is a member and actively participates in
+2 is a member, but basically does not participate
+3 is not a member"
+379,Household survey,C1c,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Social welfare organizations (volunteer organizations/non-profit organizations)",c1c,Are you actively participating in activities-social welfare organizations,,
+380,Household survey,C1d,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Mass movements (organizations formed due to environmental protection, rights protection, etc.)/Consumer rights organizations",c1d,Are you actively participating in activities-mass movements?,,
+381,Household survey,C1e,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? religious organization",c1e,Are you active in a religious organization?,,
+382,Household survey,C1f,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Alumni Association",c1f,Are you actively participating in activities - Alumni Association,,
+383,Household survey,C1g,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Recreational and leisure groups (hobby and sports clubs)",c1g,Are you actively participating in activities - entertainment and leisure groups,,
+384,Household survey,C1h,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Trade unions and similar workers’ organizations",c1h,Are you actively participating in trade unions and similar labor organizations?,,
+385,Household survey,C1i,"Are you currently a member of the following organizations/society/groups? If so, are you actively involved in the activities of organizations/clubs/groups? Professional associations, professional societies and industry associations",c1i,Are you actively involved in - a professional association or a professional society or a trade association?,,
+386,Household survey,C2,Which one have you been most actively involved with in the past 12 months?,c2,What was your most active involvement in the past 12 months?,c2lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 community organization
+2 Social welfare organizations (volunteer organizations/non-profit organizations)
+3 Mass movements (organizations formed due to environmental protection, rights protection and other events)/consumer rights organizations
+4 religious organizations
+5 Alumni Association
+6 Recreation and leisure groups (hobby and sports clubs)
+7 Trade unions and similar workers’ organizations
+8 Professional associations, professional societies and industry associations
+9 None have participated"
+387,Household survey,C3,"On a typical day, how many family members or relatives do you interact with who do not live with you? Contact information includes phone calls, text messages, letters, Internet access, meetings, etc.",c3,How many family members or relatives you don’t live with do you have contact with in a day,c3lab,"-5 Telephone survey not investigated
+10 people
+2 1-2 people
+3 3-4 people
+4 5-9 people
+5 10-19 people
+6 20-49 people
+7 50-99 people
+8 100 people or more"
+388,Household survey,C4,How many of these people do you have face-to-face contact with on a daily basis?,c4,Approximately how many members of your family or relatives do you have face-to-face contact with on a daily basis?,c4lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 All or almost all
+2 mostly
+3 about half
+4 only some
+5 None or almost none"
+389,Household survey,C5,"On a typical day, how many people do you interact with outside of family or relatives? Contact information includes phone calls, text messages, letters, Internet access, meetings, etc.",c5,"How many people do you interact with in a day, other than family or relatives?",c5lab,"-5 Telephone survey not investigated
+10 people
+2 1-2 people
+3 3-4 people
+4 5-9 people
+5 10-19 people
+6 20-49 people
+7 50-99 people
+8 100 people or more"
+390,Household survey,C6,How many of these people do you have face-to-face contact with on a daily basis?,c6,"Apart from family or relatives, approximately how many people do you have face-to-face contact with on a daily basis?",c6lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 All or almost all
+2 mostly
+3 about half
+4 only some
+5 None or almost none"
+391,Household survey,C7,"Apart from relatives, how do these people with whom you interact regularly compare to your social status?",c7,"Apart from relatives, what is the social status of these people you frequently interact with compared to you?",c7lab,"-5 Telephone survey not investigated
+-1 not applicable
+1 Most of these people have a higher social status than you
+2 Most of these people have the same social status as you
+3 Most of these people have lower social status than you"
+392,Household survey,C8,Which of the following situations do you prefer when interacting with people other than relatives?,c8,"When interacting with people other than relatives, which of the following situations do you prefer?",c8lab,"-5 Telephone survey not investigated
+-1 not applicable
+1. Frequently associate with people who think and behave similarly.
+2. Frequently associate with people who have different thoughts and behaviors.
+3. The interactions with people who have similar thoughts and behaviors are similar to those with different ones."
+393,Household survey,C9a,"Do any of your relatives, friends, or people you interact with engage in the following professions? university teacher",c9a,"The occupations of your relatives, friends, and people you have interacted with - university teachers",c9lab,"-5 Telephone survey not investigated
+1 Yes
+2 no"
+394,Household survey,C9b,"Do any of your relatives, friends, or people you interact with engage in the following professions? lawyer",c9b,"The occupations of your relatives, friends, and people you have interacted with - lawyers",,
+395,Household survey,C9c,"Do any of your relatives, friends, or people you interact with engage in the following professions? Nurse",c9c,"The profession of your relatives, friends and people you have interacted with - nurse",,
+396,Household survey,C9d,"Do any of your relatives, friends, or people you interact with engage in the following professions? computer programmer",c9d,"The occupations of your relatives, friends, and people you have interacted with - computer programmers",,
+397,Household survey,C9e,"Do any of your relatives, friends, or people you interact with engage in the following professions? middle school teacher",c9e,"The occupations of your relatives, friends and people you have interacted with - middle school teacher",,
+398,Household survey,C9f,"Do any of your relatives, friends, or people you interact with engage in the following professions? HR manager",c9f,"The occupations of your relatives, friends and people you have interacted with - HR manager",,
+399,Household survey,C9g,"Do any of your relatives, friends, or people you interact with engage in the following professions? farmer",c9g,"The occupations of your relatives, friends, and people you have interacted with are farmers",,
+400,Household survey,C9h,"Do any of your relatives, friends, or people you interact with engage in the following professions? hairdresser",c9h,"The occupation of your relatives, friends and people you have interacted with - hairdresser",,
+401,Household survey,C9i,"Do any of your relatives, friends, or people you interact with engage in the following professions? receptionist",c9i,"The occupations of your relatives, friends and people you have interacted with - front desk receptionist",,
+402,Household survey,C9j,"Do any of your relatives, friends, or people you interact with engage in the following professions? police",c9j,"The occupation of your relatives, friends and people you have interacted with - police",,
+403,Household survey,C10,"Do you have any relatives, friends or people you interact with who live abroad?",c10,"Do you have any relatives, friends or people you interact with who live abroad?",c10lab,"-5 Telephone survey not investigated
+1 Yes
+2 no"
+404,Household survey,C11a,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? Emotional and psychological problems",c11a,"When you last dealt with the following problems, who did you first seek help from - emotional and psychological problems?",c11lab,"-5 Telephone survey not investigated
+1 family living together
+2 other relatives
+3 colleagues
+4 neighbors
+5 friends
+6 professionals or institutions
+7 Not asking for help from anyone
+8 Never encountered this problem before"
+405,Household survey,C11b,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? health problems",c11b,Who did you turn to first for help when dealing with your last problem - health problems,,
+406,Household survey,C11c,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? Housework chores",c11c,Who did you turn to first for help with the most recent problem - Household chores?,,
+407,Household survey,C11d,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? Taking care of family members (e.g. children/elders)",c11d,Who did you turn to first for help when dealing with the following problems most recently - taking care of family members (e.g. children/elderly),,
+408,Household survey,C11e,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? economic issues",c11e,Who did you turn to first for help when dealing with the most recent problem - Financial Problems,,
+409,Household survey,C11f,"People seek help in various ways when they encounter difficulties. Who did you turn to first for help the last time you dealt with the following problem (I'm asking about an actual situation, not a hypothetical situation)? emergency or disaster",c11f,Who did you turn to first for help when dealing with the most recent problem - emergency or disaster?,,
+410,Household survey,C12a,"In the past 12 months, to whom have you provided the following types of assistance? Listen to personal problems or concerns",c12a,"In the past 12 months, to whom have you provided the following types of help - listening to personal issues or concerns",c12lab,"-5 Telephone survey not investigated
+1 family living together
+2 other relatives
+3 colleagues
+4 neighbors
+5 friends
+6 Not helping anyone
+7 Never encountered this problem before"
+411,入户调查,C12b,"In the past 12 months, to whom have you provided the following types of assistance? Provide financial support",c12b,Who have you provided the following types of assistance to in the past 12 months - Providing financial support,,
+412,Household survey,C12c,"In the past 12 months, to whom have you provided the following types of assistance? Help with housework/take care of family members",c12c,"In the past 12 months, to whom have you provided the following types of help - helping with housework/care for family members",,
+413,Household survey,C13,Approximately how many neighbors do you meet and greet?,c13,Approximately how many neighbors do you meet and greet?,c13lab,"-5 Telephone survey not investigated
+1 no
+2 1-2 pieces
+3 3-4 pieces
+4 5-9
+5 10 and more"
+414,Household survey,C14,"How many neighbors do you have that you can turn to for help when needed (e.g. watering plants, caring for pets, giving advice, etc.)?",c14,"How many neighbors can you ask for help when you need it (e.g. watering plants, taking care of pets, giving advice, etc.)",c14lab,"-5 Telephone survey not investigated
+1 no
+2 1-2 pieces
+3 3-4 pieces
+4 5-9
+5 10 and more"
+415,Household survey,C15a,"Do you agree with the following statements about civil rights, government, and communities? Nothing people like me say has any impact on what the government does.",c15a,Do you agree - nothing people like me say has any impact on what the government does?,c15lab,"-5 Telephone survey not investigated
+1 strongly agree
+2 agree
+3 somewhat agree
+4 somewhat disagree
+5 Disagree
+6 Strongly disagree"
+416,Household survey,C15b,"Do you agree with the following statements about civil rights, government, and communities? Politics and government are too complex for me to understand",c15b,Do you agree - politics and government are too complex for me to understand,,
+417,Household survey,C15c,"Do you agree with the following statements about civil rights, government, and communities? I am personally interested in politics",c15c,Do you agree - I am personally interested in politics,,
+418,Household survey,C15d,"Do you agree with the following statements about civil rights, government, and communities? I want to contribute to society",c15d,Do you agree - I want to contribute to society,,
+419,Household survey,C15e,"Do you agree with the following statements about civil rights, government, and communities? Neighbors care about each other",c15e,Do you agree - Neighbors care about each other,,
+420,Household survey,C15f,"Do you agree with the following statements about civil rights, government, and communities? Neighbors are always happy to help me when I need it",c15f,Do you agree - Neighbors are always happy to help me when I am in need,,
+421,Household survey,C16a,"In the past four weeks, how often have you felt the following conditions? Feeling lacking company",c16a,"In the past four weeks, how often have you felt: a lack of company?",c16lab,"-5 Telephone survey not investigated
+1 never
+2 rarely
+3 sometimes
+4 often
+5 Very often"
+422,Household survey,C16b,"In the past four weeks, how often have you felt the following conditions? feel lonely",c16b,"In the past four weeks, how often have you felt: Lonely",,
+423,Household survey,C16c,"In the past four weeks, how often have you felt the following conditions? feel excluded",c16c,"In the past four weeks, how often have you felt - that you were left out?",,
+424,Household survey,C17a,How much do you trust the following people? relative,c17a,How much do you trust the following people - relatives,c17lab,"-5 Telephone survey not investigated
+1 Very trustworthy
+2 more trustworthy
+3 Don’t trust much
+4 Total distrust"
+425,Household survey,C17b,How much do you trust the following people? friend,c17b,How much do you trust the following people - Friends,,
+426,Household survey,C17c,How much do you trust the following people? Neighbor,c17c,How much do you trust the following people - Neighbors,,
+427,Household survey,C17d,How much do you trust the following people? colleague,c17d,How much do you trust the following people - Colleagues,,
+428,Household survey,C17e,How much do you trust the following people? stranger,c17e,How much do you trust the following people - strangers,,
+429,Household survey,C17f,How much do you trust the following people? doctor,c17f,How much do you trust the following people - Doctors,,
+430,Household survey,C17g,How much do you trust the following people? bank clerk,c17g,How much do you trust the following people - bank clerks,,
+431,Household survey,C17h,How much do you trust the following people? company executives,c17h,How much do you trust the following people - company executives,,
+432,Household survey,C17i,How much do you trust the following people? reporter,c17i,How much do you trust the following people - Journalists,,
+433,Household survey,C17j,How much do you trust the following people? Non-Governmental/Non-Profit Organization Leadership,c17j,How much do you trust the following people - leaders of non-governmental/non-profit organizations,,
+434,Household survey,C17k,How much do you trust the following people? teacher,c17k,How much do you trust the following people - teachers,,
+435,Household survey,C17l,How much do you trust the following people? local government official,c17l,How much do you trust the following people - local government officials,,
+436,Household survey,C17m,How much do you trust the following people? central government official,c17m,How much do you trust the following people - central government officials,,
+437,Household survey,C17n,How much do you trust the following people? police officer,c17n,How much do you trust the following people - police officers,,
+438,Household survey,C17o,How much do you trust the following people? officer,c17o,How much do you trust the following people - military officers,,
+439,入户调查,C17p,How much do you trust the following people? Judge,c17p,How much do you trust the following people - Judge,,
+440,Household survey,C17q,How much do you trust the following people? netizen,c17q,How much do you trust the following people - Netizens,,
+441,Household survey,C18,"What do you think human nature is like? [""1"" means people are essentially bad, ""7"" means people are essentially good, please choose an appropriate number from 1-7. ]",c18,What do you think human nature is like?,c18lab,"-5 Telephone survey not investigated
+1 1 People are inherently bad
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7 People are essentially good."
+442,Household survey,C19,"Overall, do you think most people can be trusted?",c19,"Overall, do you think most people can be trusted?",c19lab,"-5 Telephone survey not investigated
+1 Most people can almost always be trusted
+2 Most people can usually be trusted
+3 Dealing with most people usually requires a lot of caution
+4 Dealing with most people almost always requires great care"
+443,Household survey,C21,Does your family put pressure on how you live your life in general?,c21,Does your family put pressure on how you live your life in general?,c21lab,"-5 Telephone survey not investigated
+1 never
+2 rarely
+3 sometimes
+4 often
+5 always"
+444,Household survey,A59d1,The specific occupation title of your current job is:,isco08a59d,The respondent is currently engaged in non-agricultural work,isco08lab,Click to view the value label isco08lab
+445,Household survey,A59d2,Your current specific work content is:,,,,
+446,Household survey,A59i1,The specific name (full name) of the unit or company you currently work for is:,,,,
+447,Household survey,A59i2,The main products or services of the unit or company you currently work for are:,,,,
+448,Household survey,A60d1,The specific occupational name of your most recent non-agricultural job was:,isco08a60d,The respondent once worked in a non-agricultural job,,
+449,Household survey,A60d2,The specific work content of your most recent non-agricultural job was:,,,,
+450,Household survey,A60i1,The specific name (full name) of the unit or company where you held your most recent non-agricultural job is:,,,,
+451,Household survey,A60i2,The main products or services of your most recent non-agricultural job were:,,,,
+452,Household survey,A84a,The specific occupation in which your spouse or common-law partner currently works is:,isco08sp,Spouse's occupation,,
+453,Household survey,A84b,Your spouse or common-law partner’s current job details include:,,,,
+454,Household survey,A86a,The specific name (full name) of the unit or company where your spouse or common-law partner currently works is:,,,,
+455,Household survey,A86b,The main products or services of the employer or company where your spouse or common-law partner currently works are:,,,,
+456,Household survey,A89e1,"When you were 14 years old, the name of your father’s workplace was:",isco08f,Father's occupation,,
+457,Household survey,A89e2,May I ask what the specific occupation name of your father was when you were 14 years old?,,,,
+458,Household survey,A89e3,May I ask what your father's specific job content was when you were 14 years old?,,,,
+459,Household survey,A90e1,"When you were 14 years old, the name of your mother’s workplace was:",isco08m,mother occupation,,
+460,Household survey,A90e2,May I ask what the specific occupation name of your mother was when you were 14 years old?,,,,
+461,Household survey,A90e3,May I ask what your mother's specific job content was when you were 14 years old?,,,,
+462,Telephone survey,None/A42new,What is your current occupation?,isco08a42new*,Respondent’s current occupation,,
+463,Household survey/telephone survey,Z8/none,Please record the current time,z00,Visit end time,,
+464,Household survey/telephone survey,Newly generated variables,none,dsource,Investigation method,dsourcelab,"1 Home interview
+2 Telephone surveys"
+465,Household survey,Newly generated variables,Only applicable to household interview data,weight1,Entry weight,,
+466,Household survey/telephone survey,Newly generated variables,Applies to complete data,weight2,Integrated weights,,
+*Variable isco08a42new is generated based on variable a42new.,,,,,,,
