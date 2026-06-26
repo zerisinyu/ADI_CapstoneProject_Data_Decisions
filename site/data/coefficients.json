@@ -1,0 +1,191 @@
+{
+  "main": [
+    {
+      "variable": "general_fairness",
+      "label": "General Fairness",
+      "type": "procedural",
+      "coef": 0.1003,
+      "se": 0.021,
+      "ci_lower": 0.0591,
+      "ci_upper": 0.1416,
+      "p": 1e-05,
+      "significant": true
+    },
+    {
+      "variable": "meritocracy_index",
+      "label": "Meritocracy Index",
+      "type": "procedural",
+      "coef": 0.1177,
+      "se": 0.0515,
+      "ci_lower": 0.0168,
+      "ci_upper": 0.2187,
+      "p": 0.02362,
+      "significant": true
+    },
+    {
+      "variable": "income_fairness",
+      "label": "Income Fairness",
+      "type": "distributive",
+      "coef": -0.0306,
+      "se": 0.0473,
+      "ci_lower": -0.1232,
+      "ci_upper": 0.0621,
+      "p": 0.51944,
+      "significant": false
+    }
+  ],
+  "strata": {
+    "urban": {
+      "n": 3504,
+      "coefficients": [
+        {
+          "variable": "general_fairness",
+          "label": "General Fairness",
+          "type": "procedural",
+          "coef": 0.1172,
+          "se": 0.0246,
+          "ci_lower": 0.0689,
+          "ci_upper": 0.1654,
+          "p": 1e-05,
+          "significant": true
+        },
+        {
+          "variable": "meritocracy_index",
+          "label": "Meritocracy Index",
+          "type": "procedural",
+          "coef": 0.0867,
+          "se": 0.0629,
+          "ci_lower": -0.0366,
+          "ci_upper": 0.2099,
+          "p": 0.17023,
+          "significant": false
+        },
+        {
+          "variable": "income_fairness",
+          "label": "Income Fairness",
+          "type": "distributive",
+          "coef": -0.0228,
+          "se": 0.056,
+          "ci_lower": -0.1326,
+          "ci_upper": 0.0871,
+          "p": 0.68523,
+          "significant": false
+        }
+      ]
+    },
+    "rural": {
+      "n": 1385,
+      "coefficients": [
+        {
+          "variable": "general_fairness",
+          "label": "General Fairness",
+          "type": "procedural",
+          "coef": 0.0566,
+          "se": 0.0372,
+          "ci_lower": -0.0164,
+          "ci_upper": 0.1296,
+          "p": 0.13007,
+          "significant": false
+        },
+        {
+          "variable": "meritocracy_index",
+          "label": "Meritocracy Index",
+          "type": "procedural",
+          "coef": 0.2013,
+          "se": 0.0906,
+          "ci_lower": 0.0237,
+          "ci_upper": 0.3789,
+          "p": 0.02732,
+          "significant": true
+        },
+        {
+          "variable": "income_fairness",
+          "label": "Income Fairness",
+          "type": "distributive",
+          "coef": -0.055,
+          "se": 0.0769,
+          "ci_lower": -0.2057,
+          "ci_upper": 0.0958,
+          "p": 0.47509,
+          "significant": false
+        }
+      ]
+    },
+    "male": {
+      "n": 2797,
+      "coefficients": [
+        {
+          "variable": "general_fairness",
+          "label": "General Fairness",
+          "type": "procedural",
+          "coef": 0.1187,
+          "se": 0.0301,
+          "ci_lower": 0.0597,
+          "ci_upper": 0.1776,
+          "p": 0.00014,
+          "significant": true
+        },
+        {
+          "variable": "meritocracy_index",
+          "label": "Meritocracy Index",
+          "type": "procedural",
+          "coef": 0.1623,
+          "se": 0.0777,
+          "ci_lower": 0.0101,
+          "ci_upper": 0.3145,
+          "p": 0.03897,
+          "significant": true
+        },
+        {
+          "variable": "income_fairness",
+          "label": "Income Fairness",
+          "type": "distributive",
+          "coef": -0.0474,
+          "se": 0.0709,
+          "ci_lower": -0.1864,
+          "ci_upper": 0.0916,
+          "p": 0.50566,
+          "significant": false
+        }
+      ]
+    },
+    "female": {
+      "n": 2092,
+      "coefficients": [
+        {
+          "variable": "general_fairness",
+          "label": "General Fairness",
+          "type": "procedural",
+          "coef": 0.0763,
+          "se": 0.0253,
+          "ci_lower": 0.0268,
+          "ci_upper": 0.1258,
+          "p": 0.00268,
+          "significant": true
+        },
+        {
+          "variable": "meritocracy_index",
+          "label": "Meritocracy Index",
+          "type": "procedural",
+          "coef": 0.0542,
+          "se": 0.0702,
+          "ci_lower": -0.0833,
+          "ci_upper": 0.1917,
+          "p": 0.4411,
+          "significant": false
+        },
+        {
+          "variable": "income_fairness",
+          "label": "Income Fairness",
+          "type": "distributive",
+          "coef": -0.0135,
+          "se": 0.0555,
+          "ci_lower": -0.1222,
+          "ci_upper": 0.0952,
+          "p": 0.80841,
+          "significant": false
+        }
+      ]
+    }
+  }
+}

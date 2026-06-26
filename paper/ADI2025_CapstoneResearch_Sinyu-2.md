@@ -6,7 +6,7 @@
 
 **Methods:** We analyzed data from 4,889 Millennials and Generation Z respondents (born 1980+) in the 2023 Chinese General Social Survey. Multiple imputation (M = 20) addressed missing data from the split-questionnaire design. OLS regression with robust standard errors estimated associations between three fairness dimensions (general fairness, meritocracy index, and income fairness) and ideal number of children. Poisson models assessed robustness, and stratified analyses examined heterogeneity by gender and urban/rural residence.
 
-**Results:** The mean ideal number of children was 1.59, with 15.3% of respondents preferring zero children. Fertility intentions varied markedly by cohort: Generation Z reported a mean of 1.22 ideal children compared to 1.79 among Millennials (Cohen's d = 0.56). Urban residents expressed lower fertility intentions (M = 1.52) than rural residents (M = 1.79). In regression analyses, procedural fairness was associated with fertility intentions, but distributive fairness was not. General societal fairness (b = 0.100, p < 0.001) and meritocracy beliefs (b = 0.114, p = 0.014) were positively associated with ideal family size, while income fairness perceptions showed no significant effect. Stratified analyses revealed urban-rural divergence: urban residents responded primarily to general fairness (b = 0.117), whereas rural residents' fertility intentions were associated with meritocracy beliefs (b = 0.191). Women showed weaker general fairness effects (b = 0.075) than men (b = 0.119).
+**Results:** The mean ideal number of children was 1.59, with 15.3% of respondents preferring zero children. Fertility intentions varied markedly by cohort: Generation Z reported a mean of 1.22 ideal children compared to 1.79 among Millennials (Cohen's d = 0.56). Urban residents expressed lower fertility intentions (M = 1.52) than rural residents (M = 1.79). In regression analyses, procedural fairness was associated with fertility intentions, but distributive fairness was not. General societal fairness (b = 0.100, p < 0.001) and meritocracy beliefs (b = 0.118, p = 0.024) were positively associated with ideal family size, while income fairness perceptions showed no significant effect. Stratified analyses revealed urban-rural divergence: urban residents responded primarily to general fairness (b = 0.117), whereas rural residents' fertility intentions were associated with meritocracy beliefs (b = 0.201). Women showed weaker general fairness effects (b = 0.076) than men (b = 0.119).
 
 **Conclusions:** Young Chinese adults considering childbearing appear more attuned to whether the "rules of the game" are fair than to whether economic outcomes are equal. These findings suggest that pronatalist policies focused solely on material transfers may be insufficient; strengthening institutional credibility and perceived pathways to mobility may be equally consequential for fertility recovery.
 
@@ -224,9 +224,9 @@ Fairness perceptions also vary by residence type. Rural respondents report signi
 
 ## **3.4 Regression Results: Main Effects**
 
-Table A1 (see Appendix) and Figure 1 present OLS regression results pooled across 20 multiply imputed datasets. General fairness perceptions exhibit a significant positive association with the ideal number of children (b = 0.100, SE = 0.021, p < 0.001). Each one-point increase on the five-point fairness scale corresponds to 0.10 additional children in stated ideal family size. The standardized coefficient (β = 0.085) indicates a small-to-medium effect: a one standard deviation increase in perceived fairness is associated with 0.085 standard deviations higher fertility intentions.
+Table A1 (see Appendix) and Figure 1 present OLS regression results pooled across 20 multiply imputed datasets. General fairness perceptions exhibit a significant positive association with the ideal number of children (b = 0.100, SE = 0.021, p < 0.001). Each one-point increase on the five-point fairness scale corresponds to 0.10 additional children in stated ideal family size. The standardized coefficient (β = 0.086) indicates a small-to-medium effect: a one standard deviation increase in perceived fairness is associated with 0.086 standard deviations higher fertility intentions.
 
-The Meritocracy Index is also positively associated with fertility intentions (b = 0.114, SE = 0.046, p = 0.014; β = 0.043). In contrast, perceptions of income fairness show no significant relationship with the outcome variable (b = −0.028, SE = 0.045, p = 0.54), consistent with the weak bivariate correlation reported in Table 7. The full model explains 19.4% of the variance in fertility intentions (pooled R² = 0.194).
+The Meritocracy Index is also positively associated with fertility intentions (b = 0.118, SE = 0.052, p = 0.024; β = 0.039). In contrast, perceptions of income fairness show no significant relationship with the outcome variable (b = −0.031, SE = 0.047, p = 0.52), consistent with the weak bivariate correlation reported in Table 7. The full model explains 19.3% of the variance in fertility intentions (pooled R² = 0.193).
 
 ![][image8]
 
@@ -234,19 +234,19 @@ The Meritocracy Index is also positively associated with fertility intentions (b
 
 ## **3.5 Robustness Check: Poisson Regression**
 
-To assess sensitivity to model specification, we re-estimated the main model using Poisson regression. As reported in Table A1b, the results are substantively consistent with the OLS estimates. A one-unit increase in general fairness is associated with a 6.4% increase in the ideal number of children (IRR = 1.064, 95% CI: 1.037–1.092, p < 0.001). The Meritocracy Index shows a 7.8% increase per unit (IRR = 1.078, 95% CI: 1.013–1.146, p = 0.017). Income fairness remains non-significant (IRR = 0.985, 95% CI: 0.917–1.040, p = 0.458). The consistency between OLS and Poisson specifications strengthens confidence in the main findings.
+To assess sensitivity to model specification, we re-estimated the main model using Poisson regression. As reported in Table A1b, the results are substantively consistent with the OLS estimates. A one-unit increase in general fairness is associated with a 6.4% increase in the ideal number of children (IRR = 1.064, 95% CI: 1.037–1.092, p < 0.001). The Meritocracy Index shows an 8.2% increase per unit (IRR = 1.082, 95% CI: 1.013–1.157, p = 0.020). Income fairness remains non-significant (IRR = 0.984, 95% CI: 0.927–1.044, p = 0.591). The consistency between OLS and Poisson specifications strengthens confidence in the main findings.
 
 ## **3.6 Heterogeneity by Urban/Rural Residence**
 
-Stratified analyses reveal divergent patterns between urban and rural residents (Table A2, Figure 2). Among urban respondents (N = 3,502), general fairness exhibits a strong positive association with fertility intentions (b = 0.117, SE = 0.026, p < 0.001), while the meritocracy effect is smaller and statistically non-significant (b = 0.076, SE = 0.055, p = 0.165).
+Stratified analyses reveal divergent patterns between urban and rural residents (Table A2, Figure 2). Among urban respondents (N = 3,504), general fairness exhibits a strong positive association with fertility intentions (b = 0.117, SE = 0.025, p < 0.001), while the meritocracy effect is smaller and statistically non-significant (b = 0.087, SE = 0.063, p = 0.170).
 
-This pattern reverses among rural respondents (N = 1,387). General fairness shows a weaker, non-significant relationship (b = 0.065, SE = 0.043, p = 0.131), whereas the Meritocracy Index emerges as the dominant predictor (b = 0.191, SE = 0.085, p = 0.025). The meritocracy coefficient among rural residents is nearly double the magnitude of the general fairness coefficient among urban residents.
+This pattern reverses among rural respondents (N = 1,385). General fairness shows a weaker, non-significant relationship (b = 0.057, SE = 0.037, p = 0.130), whereas the Meritocracy Index emerges as the dominant predictor (b = 0.201, SE = 0.091, p = 0.027). The meritocracy coefficient among rural residents is nearly double the magnitude of the general fairness coefficient among urban residents.
 
 ![][image9]
 
 ## **3.7 Heterogeneity by Gender**
 
-Gender-stratified models indicate asymmetry in the fairness-fertility relationship (Table A3). Among male respondents (N = 2,798), general fairness shows a strong positive association with fertility intentions (b = 0.119, SE = 0.030, p < 0.001), while the meritocracy effect is also significant (b = 0.144, SE = 0.061, p = 0.041). Among female respondents (N = 2,091), the general fairness effect is weaker (b = 0.075, SE = 0.025, p = 0.003), and the meritocracy effect is not statistically significant (b = 0.066, SE = 0.070, p = 0.330). Although both genders show significant associations between general fairness and fertility intentions, the coefficient magnitude for women is approximately two-thirds that of men.
+Gender-stratified models indicate asymmetry in the fairness-fertility relationship (Table A3). Among male respondents (N = 2,797), general fairness shows a strong positive association with fertility intentions (b = 0.119, SE = 0.030, p < 0.001), while the meritocracy effect is also significant (b = 0.162, SE = 0.078, p = 0.039). Among female respondents (N = 2,092), the general fairness effect is weaker (b = 0.076, SE = 0.025, p = 0.003), and the meritocracy effect is not statistically significant (b = 0.054, SE = 0.070, p = 0.441). Although both genders show significant associations between general fairness and fertility intentions, the coefficient magnitude for women is approximately two-thirds that of men.
 
 ![][image10]
 
@@ -264,7 +264,7 @@ First, fertility intentions among younger cohorts are low and vary substantially
 
 Second, general perceptions of societal fairness and specific beliefs in meritocracy are positively associated with the ideal number of children. Perceptions of income fairness, by contrast, show no significant relationship with fertility intentions. This null finding suggests that prospective parents are less concerned with the current distribution of economic outcomes (distributive justice) than with the perceived openness of pathways to upward mobility (procedural justice). The distinction between procedural and distributive fairness is theoretically meaningful: while 71.8% of respondents perceive income differences as fair, these perceptions do not translate into higher fertility intentions.
 
-Third, the fairness-fertility relationship varies by residence and gender. Rural residents show unique sensitivity to meritocratic beliefs (b = 0.191), while urban residents respond primarily to general fairness (b = 0.117). Notably, rural respondents also report significantly higher meritocracy beliefs than urban respondents (M = 1.78 vs. 1.67), and express higher fertility intentions (M = 1.79 vs. 1.52). This convergence of higher meritocracy beliefs and higher fertility intentions among rural residents is consistent with the hypothesis that belief in educational mobility sustains rural families' willingness to invest in the next generation.
+Third, the fairness-fertility relationship varies by residence and gender. Rural residents show unique sensitivity to meritocratic beliefs (b = 0.201), while urban residents respond primarily to general fairness (b = 0.117). Notably, rural respondents also report significantly higher meritocracy beliefs than urban respondents (M = 1.78 vs. 1.67), and express higher fertility intentions (M = 1.79 vs. 1.52). This convergence of higher meritocracy beliefs and higher fertility intentions among rural residents is consistent with the hypothesis that belief in educational mobility sustains rural families' willingness to invest in the next generation.
 
 ## **4.2 Generational Context: The Age of "Involution"**
 
@@ -318,11 +318,11 @@ This study provides evidence that perceived fairness is associated with fertilit
 
 | Variable | β | SE | t | p-value | Std. β |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| General Fairness | 0.100\*\*\* | 0.021 | 4.684 | \<0.001 | 0.085 |
-| Meritocracy Index | 0.114\* | 0.046 | 2.465 | 0.014 | 0.043 |
-| Income Fairness | \-0.028 | 0.045 | \-0.609 | 0.542 | \-0.012 |
-| Age | \-0.011\*\* | 0.004 | \-2.842 | 0.005 | \-0.074 |
-| Female | \-0.067 | 0.035 | \-1.893 | 0.059 | \-0.031 |
+| General Fairness | 0.100\*\*\* | 0.021 | 4.767 | \<0.001 | 0.086 |
+| Meritocracy Index | 0.118\* | 0.052 | 2.285 | 0.024 | 0.039 |
+| Income Fairness | \-0.031 | 0.047 | \-0.646 | 0.519 | \-0.011 |
+| Age | 0.011\*\*\* | 0.003 | 3.629 | \<0.001 | 0.072 |
+| Female | \-0.350\*\*\* | 0.028 | \-12.600 | \<0.001 | \-0.334 |
 
 *Note: Coefficients pooled using Rubin's rules across 20 multiple imputations. Robust standard errors (HC3) used within each imputation. Sample includes all younger cohort respondents (born 1980+). Std. β \= standardized coefficient. \*p\<0.05, \*\*p\<0.01, \*\*\*p\<0.001*
 
@@ -333,8 +333,8 @@ This study provides evidence that perceived fairness is associated with fertilit
 | Variable | IRR | 95% CI | p-value |
 | :---- | :---- | :---- | :---- |
 | General Fairness | 1.064 | \[1.037, 1.092\] | \<0.001\*\*\* |
-| Meritocracy Index | 1.078 | \[1.013, 1.146\] | 0.017\* |
-| Income Fairness | 0.985 | \[0.917, 1.040\] | 0.458 |
+| Meritocracy Index | 1.082 | \[1.013, 1.157\] | 0.020\* |
+| Income Fairness | 0.984 | \[0.927, 1.044\] | 0.591 |
 
 *Note: IRR \= Incidence Rate Ratio. A value of 1.064 indicates a 6.4% increase in ideal number of children for each one-unit increase in the predictor. Full model controls for all covariates listed in Table A1. \*p\<0.05, \*\*p\<0.01, \*\*\*p\<0.001*
 
@@ -344,12 +344,12 @@ This study provides evidence that perceived fairness is associated with fertilit
 
 | Residence | Fairness Measure | N | β | SE | p-value |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Urban | General Fairness | 3,502 | 0.117\*\*\* | 0.026 | \<0.001 |
-| Rural | General Fairness | 1,387 | 0.065 | 0.043 | 0.131 |
-| Urban | Meritocracy Index | 3,502 | 0.076 | 0.055 | 0.165 |
-| Rural | Meritocracy Index | 1,387 | 0.191\* | 0.085 | 0.025 |
-| Urban | Income Fairness | 3,502 | \-0.021 | 0.055 | 0.706 |
-| Rural | Income Fairness | 1,387 | \-0.053 | 0.073 | 0.466 |
+| Urban | General Fairness | 3,504 | 0.117\*\*\* | 0.025 | \<0.001 |
+| Rural | General Fairness | 1,385 | 0.057 | 0.037 | 0.130 |
+| Urban | Meritocracy Index | 3,504 | 0.087 | 0.063 | 0.170 |
+| Rural | Meritocracy Index | 1,385 | 0.201\* | 0.091 | 0.027 |
+| Urban | Income Fairness | 3,504 | \-0.023 | 0.056 | 0.685 |
+| Rural | Income Fairness | 1,385 | \-0.055 | 0.077 | 0.475 |
 
 *Note: Models control for age, gender, education, marital status, log income, hukou status, and existing children. Results pooled across M \= 20 imputations using Rubin's rules. Sample restricted to younger cohorts (born 1980+). \*p\<0.05, \*\*p\<0.01, \*\*\*p\<0.001*
 
@@ -359,12 +359,12 @@ This study provides evidence that perceived fairness is associated with fertilit
 
 | Gender | Fairness Measure | N | β | SE | p-value |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Male | General Fairness | 2,798 | 0.119\*\*\* | 0.030 | \<0.001 |
-| Female | General Fairness | 2,091 | 0.075\*\* | 0.025 | 0.003 |
-| Male | Meritocracy Index | 2,798 | 0.144\* | 0.061 | 0.041 |
-| Female | Meritocracy Index | 2,091 | 0.066 | 0.070 | 0.330 |
-| Male | Income Fairness | 2,798 | \-0.039 | 0.071 | 0.583 |
-| Female | Income Fairness | 2,091 | \-0.018 | 0.054 | 0.739 |
+| Male | General Fairness | 2,797 | 0.119\*\*\* | 0.030 | \<0.001 |
+| Female | General Fairness | 2,092 | 0.076\*\* | 0.025 | 0.003 |
+| Male | Meritocracy Index | 2,797 | 0.162\* | 0.078 | 0.039 |
+| Female | Meritocracy Index | 2,092 | 0.054 | 0.070 | 0.441 |
+| Male | Income Fairness | 2,797 | \-0.047 | 0.071 | 0.506 |
+| Female | Income Fairness | 2,092 | \-0.013 | 0.055 | 0.808 |
 
 *Note: Models control for age, education, marital status, log income, urban residence, hukou status, and existing children. Results pooled across M \= 20 imputations using Rubin's rules. Sample restricted to younger cohorts (born 1980+). \*p\<0.05, \*\*p\<0.01, \*\*\*p\<0.001*
 
@@ -374,12 +374,12 @@ This study provides evidence that perceived fairness is associated with fertilit
 
 | Interaction Term | β | SE | Raw p | FDR p |
 | :---- | :---- | :---- | :---- | :---- |
-| General Fairness × Female | \-0.045 | 0.039 | 0.250 | 0.501 |
-| General Fairness × Urban | 0.053 | 0.049 | 0.283 | 0.501 |
-| Meritocracy Index × Female | 0.056 | 0.093 | 0.549 | 0.659 |
-| Meritocracy Index × Urban | \-0.109 | 0.098 | 0.267 | 0.501 |
-| Income Fairness × Female | 0.055 | 0.092 | 0.552 | 0.659 |
-| Income Fairness × Urban | 0.101 | 0.099 | 0.306 | 0.501 |
+| General Fairness × Female | \-0.053 | 0.038 | 0.164 | 0.653 |
+| General Fairness × Urban | 0.050 | 0.042 | 0.235 | 0.653 |
+| Meritocracy Index × Female | \-0.089 | 0.098 | 0.364 | 0.653 |
+| Meritocracy Index × Urban | \-0.079 | 0.101 | 0.435 | 0.653 |
+| Income Fairness × Female | \-0.012 | 0.085 | 0.891 | 0.891 |
+| Income Fairness × Urban | 0.033 | 0.085 | 0.701 | 0.841 |
 
 *Note: FDR p-values corrected using Benjamini-Hochberg procedure for 6 tests. All interaction models include main effects and full set of control variables. Results pooled across M \= 20 imputations. None of the interactions reached statistical significance after multiple testing correction, suggesting the stratified patterns should be interpreted with caution. \*p\<0.05 (FDR-adjusted)*
 
@@ -402,10 +402,10 @@ This study provides evidence that perceived fairness is associated with fertilit
 
 | Table | Description | Key Finding |
 | :---- | :---- | :---- |
-| A1 | Main regression (multiple imputation) | General fairness β \= 0.100 (p \< 0.001), pooled R² \= 0.194 |
+| A1 | Main regression (multiple imputation) | General fairness β \= 0.100 (p \< 0.001), pooled R² \= 0.193 |
 | A1b | Poisson regression (IRR) | General fairness IRR \= 1.064 (6.4% increase per unit) |
-| A2 | Urban/Rural stratification | Urban: general fairness β \= 0.117; Rural: meritocracy β \= 0.191 |
-| A3 | Gender stratification | Male: general fairness β \= 0.119; meritocracy  β \= 0.144;  Female: general fairness  β \= 0.075 |
+| A2 | Urban/Rural stratification | Urban: general fairness β \= 0.117; Rural: meritocracy β \= 0.201 |
+| A3 | Gender stratification | Male: general fairness β \= 0.119; meritocracy  β \= 0.162;  Female: general fairness  β \= 0.076 |
 | A4 | Interaction models (FDR-corrected) | No significant interactions after multiple testing correction |
 
 # **References**

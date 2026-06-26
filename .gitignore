@@ -1,0 +1,21 @@
+# =====================================================================
+# CGSS 2023 microdata — NOT redistributable.
+# These are respondent-level survey files that require free registration
+# to obtain. See data/README.md for how to download and place them.
+# =====================================================================
+data/CGSS2023.csv
+data/CGSS2023.dta
+
+# --- Working docs (roadmap, storyboard) — kept local, not published ---
+docs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- OS / editor cruft ---
+.DS_Store
