@@ -9,6 +9,9 @@ data/CGSS2023.dta
 # --- Working docs (roadmap, storyboard) — kept local, not published ---
 docs/
 
+# --- Local tool settings ---
+.claude/settings.local.json
+
 # --- Python ---
 __pycache__/
 *.py[cod]

@@ -44,7 +44,8 @@ def main(quick: bool = False) -> None:
 
     print("5/5  Rendering figures and web data ...")
     figures.generate_all(res)
-    written = export_web.export(res, summary)
+    extras = descriptives.extra_findings(df_young)
+    written = export_web.export(res, summary, extras=extras)
     print(f"     Wrote site data: {', '.join(written)}")
     print("\nDone.")
 

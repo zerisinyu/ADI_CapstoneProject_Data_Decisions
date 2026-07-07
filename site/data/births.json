@@ -1,0 +1,40 @@
+[
+  {
+    "year": 2015,
+    "births_m": 16.55
+  },
+  {
+    "year": 2016,
+    "births_m": 17.86,
+    "note": "universal two-child policy"
+  },
+  {
+    "year": 2017,
+    "births_m": 17.23
+  },
+  {
+    "year": 2018,
+    "births_m": 15.23
+  },
+  {
+    "year": 2019,
+    "births_m": 14.65
+  },
+  {
+    "year": 2020,
+    "births_m": 12.02
+  },
+  {
+    "year": 2021,
+    "births_m": 10.62,
+    "note": "three-child policy, all limits removed"
+  },
+  {
+    "year": 2022,
+    "births_m": 9.56
+  },
+  {
+    "year": 2023,
+    "births_m": 9.02
+  }
+]

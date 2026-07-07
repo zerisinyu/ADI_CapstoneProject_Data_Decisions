@@ -30,8 +30,23 @@ def _coef_records(results, fairness_vars=config.FAIRNESS_VARS):
     return records
 
 
-def export(res, summary, site_dir=config.SITE_DATA_DIR):
-    """Write coefficients.json, cohort_dist.json, and summary.json."""
+# Annual births in China, millions (National Bureau of Statistics).
+# Public reference series for the site's opening chart; not derived from CGSS.
+BIRTHS_NBS = [
+    {"year": 2015, "births_m": 16.55},
+    {"year": 2016, "births_m": 17.86, "note": "universal two-child policy"},
+    {"year": 2017, "births_m": 17.23},
+    {"year": 2018, "births_m": 15.23},
+    {"year": 2019, "births_m": 14.65},
+    {"year": 2020, "births_m": 12.02},
+    {"year": 2021, "births_m": 10.62, "note": "three-child policy, all limits removed"},
+    {"year": 2022, "births_m": 9.56},
+    {"year": 2023, "births_m": 9.02},
+]
+
+
+def export(res, summary, extras=None, site_dir=config.SITE_DATA_DIR):
+    """Write coefficients.json, cohort_dist.json, summary.json (+ extras, births)."""
     site_dir.mkdir(parents=True, exist_ok=True)
 
     coefficients = {
@@ -45,5 +60,10 @@ def export(res, summary, site_dir=config.SITE_DATA_DIR):
     (site_dir / "coefficients.json").write_text(json.dumps(coefficients, indent=2))
     (site_dir / "cohort_dist.json").write_text(json.dumps(summary["cohort"], indent=2))
     (site_dir / "summary.json").write_text(json.dumps(summary, indent=2))
+    (site_dir / "births.json").write_text(json.dumps(BIRTHS_NBS, indent=2))
 
-    return ["coefficients.json", "cohort_dist.json", "summary.json"]
+    written = ["coefficients.json", "cohort_dist.json", "summary.json", "births.json"]
+    if extras is not None:
+        (site_dir / "extras.json").write_text(json.dumps(extras, indent=2))
+        written.append("extras.json")
+    return written

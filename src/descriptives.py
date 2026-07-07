@@ -60,6 +60,60 @@ def fairness_correlations(df: pd.DataFrame) -> dict:
     return out
 
 
+def extra_findings(df: pd.DataFrame) -> dict:
+    """Additional descriptive nuggets used by the data-story website.
+
+    All computed on the raw (pre-imputation) young-cohort sample; each share
+    reports its own valid N because of the split-questionnaire design.
+    """
+    def pct_zero(sub):
+        s = sub["ideal_children"].dropna()
+        return {"pct": round(float((s == 0).mean() * 100), 1), "n": int(len(s))}
+
+    def mean_n(sub):
+        s = sub["ideal_children"].dropna()
+        return {"mean": round(float(s.mean()), 2), "n": int(len(s))}
+
+    gf = df["general_fairness"].dropna()
+    inc = df["income_fairness"].dropna()
+    grad = df.groupby("general_fairness")["ideal_children"].agg(["mean", "count"])
+
+    return {
+        "zero_pref": {
+            "overall": pct_zero(df),
+            "genz": pct_zero(df[df.cohort == "1995+"]),
+            "millennial": pct_zero(df[df.cohort == "1980-1994"]),
+            "female": pct_zero(df[df.female == 1]),
+            "male": pct_zero(df[df.female == 0]),
+            "urban": pct_zero(df[df.urban == 1]),
+            "rural": pct_zero(df[df.urban == 0]),
+        },
+        "general_fairness_dist": {
+            str(int(k)): round(float(v), 4)
+            for k, v in gf.value_counts(normalize=True).sort_index().items()
+        },
+        "general_fairness_n": int(len(gf)),
+        "hardwork_agree_pct": round(float((df["b1811_fair"] == 2).sum() / df["b1811_fair"].notna().sum() * 100), 1),
+        "effort_agree_pct": round(float((df["b1814_fair"] == 2).sum() / df["b1814_fair"].notna().sum() * 100), 1),
+        "income_fair_pct": round(float((inc == 2).mean() * 100), 1),
+        "income_n": int(len(inc)),
+        "means": {
+            "urban_hukou": mean_n(df[df.urban_hukou == 1]),
+            "rural_hukou": mean_n(df[df.urban_hukou == 0]),
+            "married": mean_n(df[df.married == 1]),
+            "single": mean_n(df[df.married == 0]),
+            "college": mean_n(df[df.education >= 5]),
+            "no_college": mean_n(df[df.education < 5]),
+        },
+        "meritocracy_mean_urban": round(float(df.loc[df.urban == 1, "meritocracy_index"].dropna().mean()), 2),
+        "meritocracy_mean_rural": round(float(df.loc[df.urban == 0, "meritocracy_index"].dropna().mean()), 2),
+        "gradient": [
+            {"level": int(k), "mean": round(float(r["mean"]), 2), "n": int(r["count"])}
+            for k, r in grad.iterrows()
+        ],
+    }
+
+
 def overall_summary(df: pd.DataFrame) -> dict:
     """Headline numbers used across the paper, poster, and site."""
     ideal = df["ideal_children"].dropna()
