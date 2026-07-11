@@ -1,8 +1,10 @@
-# Perceived Fairness and Fertility Intentions in China
+# Fair Play, Over Fair Play? Perceived Fairness and Fertility Intentions in China
 
-**Young Chinese adults aren't refusing children because they're poor — they're refusing because the game feels rigged.**
+**Chinese young adults probably aren't refusing children because they don't have enough money to raise them — they're refusing because the game feels rigged.**
 
-Using the 2023 Chinese General Social Survey (CGSS), this project shows that **procedural** fairness (is the system fair? does effort pay off?) is associated with how many children young adults want, while **distributive** fairness (are incomes equal?) is not. China's total fertility rate has fallen to 1.09 despite the removal of all birth limits, so understanding the subjective drivers of fertility matters for policy.
+Using the 2023 Chinese General Social Survey (CGSS), this project shows that **procedural** fairness (is the system fair? does effort pay off?) is associated with how many children young adults want, while **distributive** fairness (are incomes equal?) is not. China's total fertility rate has fallen to 1.09 despite the removal of all birth limits, so understanding the subjective drivers of fertility matters for policy. 
+
+This little research was proudly built for the capstone project Applied Data Institute '25 cohort at [Equitech Futures](equitechfutures.com).
 
 ![Procedural fairness predicts fertility intentions; distributive fairness does not](outputs/Figure1_Coefficient_Plot.png)
 
