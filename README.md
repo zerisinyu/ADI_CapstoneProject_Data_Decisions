@@ -1,8 +1,16 @@
-# Perceived Fairness and Fertility Intentions in China
+# Policy Research Project: Fair Play, Over Fair Pay?
 
-A capstone research project for the [Applied Data Institute '25](https://equitechfutures.com) cohort, exploring whether perceptions of social fairness are associated with how many children young Chinese adults say they want.
+A capstone research project for the [Applied Data Institute '25](https://equitechfutures.com/programs/adi) cohort, exploring whether perceptions of social fairness are associated with how many children young Chinese adults say they want.
+
+
+<img width=60% alt="image" src="https://github.com/user-attachments/assets/31656c8e-7c0a-48b6-8411-cdbd20d1273e" />
+
+*A slide from my capstone presentation in December 2025.*
+
+--
 
 Using the 2023 Chinese General Social Survey (CGSS, N = 4,889 respondents born 1980+), the analysis finds that **procedural fairness** — whether people feel the system is fair and that effort is rewarded — is positively associated with ideal number of children, while **distributive fairness** (perceived income equality) is not. The project also documents a sharp generational gap: Gen Z respondents report an average of 1.22 ideal children compared to 1.79 for Millennials.
+
 
 These are correlational findings from cross-sectional survey data, not causal claims. The paper discusses limitations in detail.
 
@@ -11,6 +19,10 @@ These are correlational findings from cross-sectional survey data, not causal cl
 An accompanying scrollytelling website presents the key findings in a more accessible format:
 
 **[Fair Play, Over Fair Pay?](https://zerisinyu.github.io/ADI_CapstoneProject_Data_Decisions/)** — a data-driven narrative exploring why young China is saying no to babies, built with D3.js and Scrollama.
+
+<img width=50% alt="image" src="data_viz.gif" />
+
+
 
 ## Summary of findings
 
