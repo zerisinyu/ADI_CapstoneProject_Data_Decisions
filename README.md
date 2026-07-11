@@ -1,11 +1,11 @@
 # Policy Research Project: Fair Play, Over Fair Pay?
 
-A capstone research project for the [Applied Data Institute '25](https://equitechfutures.com/programs/adi) cohort, exploring whether perceptions of social fairness are associated with how many children young Chinese adults say they want.
+A data science capstone research project for the **Data & Decisions** course taught by [Abhilash Mishra](https://www.abhilashmishra.xyz), at [Applied Data Institute](https://equitechfutures.com/programs/adi) by Equitech Futures, exploring whether perceptions of social fairness are associated with how many children young Chinese adults say they want.
 
 
 <img width=60% alt="image" src="https://github.com/user-attachments/assets/31656c8e-7c0a-48b6-8411-cdbd20d1273e" />
 
-*A slide from my capstone presentation in December 2025.*
+*A slide from my [capstone presentation](https://www.figma.com/deck/cKKCRtIhpCJFClsZ8Ytl66) in December 2025.*
 
 --
 
