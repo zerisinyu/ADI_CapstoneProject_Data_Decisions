@@ -10,7 +10,7 @@ data/CGSS2023.dta
 docs/
 
 # --- Local tool settings ---
-.claude/settings.local.json
+.claude/
 
 # --- Python ---
 __pycache__/
